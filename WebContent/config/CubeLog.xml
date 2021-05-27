@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cubes>
+  <Cube id="0d9bf3adaecbc9e710fea6e8d9cc9e75">
+    <Slicer name="location.location_departement">[location.location_departement].[(All)].All location</Slicer>
+    <Slicer name="date">[date].[(All)].All date</Slicer>
+    <Slicer name="atlas">[atlas].[atlas].0</Slicer>
+    <Axis name="Axis0">
+      <Tuple number="1" Dimension="Measures">[Measures].[MeasuresLevel].nbr of atlas</Tuple>
+      <Tuple number="1" Dimension="species">[species].[species_name].Guillemot de Troïl</Tuple>
+    </Axis>
+    <Axis name="Axis1">
+      <Tuple number="1" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(12)</Tuple>
+      <Tuple number="2" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(15)</Tuple>
+      <Tuple number="3" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(20)</Tuple>
+      <Tuple number="4" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(23)</Tuple>
+      <Tuple number="5" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(31)</Tuple>
+      <Tuple number="6" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(35)</Tuple>
+      <Tuple number="7" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(39)</Tuple>
+      <Tuple number="8" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(4)</Tuple>
+      <Tuple number="9" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(6)</Tuple>
+    </Axis>
+    <Measure Ax0="1" Ax1="1">
+      <Value>2</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="2">
+      <Value>36</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="3">
+      <Value>436</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="4">
+      <Value>2</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="5">
+      <Value>246</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="6">
+      <Value>236</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="7">
+      <Value>35</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="8">
+      <Value>128</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="9">
+      <Value>220</Value>
+    </Measure>
+  </Cube>
+</Cubes>

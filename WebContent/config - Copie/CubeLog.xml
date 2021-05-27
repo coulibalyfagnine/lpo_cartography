@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cubes>
+  <Cube id="85522b1e33e082dbc3698247db8211a2">
+    <Axis name="Axis0">
+      <Tuple number="1" Dimension="Measures">[Measures].[MeasuresLevel].Production_Quantity</Tuple>
+      <Tuple number="1" Dimension="Time.Time_H1">[Time.Time_H1].[Year].2006</Tuple>
+      <Tuple number="2" Dimension="Measures">[Measures].[MeasuresLevel].Production_Quantity</Tuple>
+      <Tuple number="2" Dimension="Time.Time_H1">[Time.Time_H1].[Year].2007</Tuple>
+      <Tuple number="3" Dimension="Measures">[Measures].[MeasuresLevel].Production_Quantity</Tuple>
+      <Tuple number="3" Dimension="Time.Time_H1">[Time.Time_H1].[Year].2008</Tuple>
+      <Tuple number="4" Dimension="Measures">[Measures].[MeasuresLevel].Area_HarvestedRond</Tuple>
+      <Tuple number="4" Dimension="Time.Time_H1">[Time.Time_H1].[Year].2006</Tuple>
+      <Tuple number="5" Dimension="Measures">[Measures].[MeasuresLevel].Area_HarvestedRond</Tuple>
+      <Tuple number="5" Dimension="Time.Time_H1">[Time.Time_H1].[Year].2007</Tuple>
+      <Tuple number="6" Dimension="Measures">[Measures].[MeasuresLevel].Area_HarvestedRond</Tuple>
+      <Tuple number="6" Dimension="Time.Time_H1">[Time.Time_H1].[Year].2008</Tuple>
+    </Axis>
+    <Axis name="Axis1">
+      <Tuple number="1" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="1" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Belarus</Tuple>
+      <Tuple number="2" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="2" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Bulgaria</Tuple>
+      <Tuple number="3" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="3" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Czech Republic</Tuple>
+      <Tuple number="4" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="4" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Hungary</Tuple>
+      <Tuple number="5" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="5" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Poland</Tuple>
+      <Tuple number="6" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="6" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Republic of Moldova</Tuple>
+      <Tuple number="7" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="7" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Romania</Tuple>
+      <Tuple number="8" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="8" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Russian Federation</Tuple>
+      <Tuple number="9" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="9" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Slovakia</Tuple>
+      <Tuple number="10" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="10" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Ukraine</Tuple>
+      <Tuple number="11" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="11" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Denmark</Tuple>
+      <Tuple number="12" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="12" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Estonia</Tuple>
+      <Tuple number="13" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="13" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Finland</Tuple>
+      <Tuple number="14" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="14" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Ireland</Tuple>
+      <Tuple number="15" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="15" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Latvia</Tuple>
+      <Tuple number="16" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="16" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Lithuania</Tuple>
+      <Tuple number="17" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="17" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Norway</Tuple>
+      <Tuple number="18" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="18" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Sweden</Tuple>
+      <Tuple number="19" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="19" Dimension="Location.Location_H1">[Location.Location_H1].[Country].United Kingdom</Tuple>
+      <Tuple number="20" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="20" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Albania</Tuple>
+      <Tuple number="21" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="21" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Bosnia and Herzegovina</Tuple>
+      <Tuple number="22" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="22" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Croatia</Tuple>
+      <Tuple number="23" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="23" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Greece</Tuple>
+      <Tuple number="24" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="24" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Italy</Tuple>
+      <Tuple number="25" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="25" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Malta</Tuple>
+      <Tuple number="26" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="26" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Montenegro</Tuple>
+      <Tuple number="27" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="27" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Portugal</Tuple>
+      <Tuple number="28" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="28" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Serbia</Tuple>
+      <Tuple number="29" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="29" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Slovenia</Tuple>
+      <Tuple number="30" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="30" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Spain</Tuple>
+      <Tuple number="31" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="31" Dimension="Location.Location_H1">[Location.Location_H1].[Country].The former Yugoslav Republic of Macedonia</Tuple>
+      <Tuple number="32" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="32" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Austria</Tuple>
+      <Tuple number="33" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="33" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Belgium</Tuple>
+      <Tuple number="34" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="34" Dimension="Location.Location_H1">[Location.Location_H1].[Country].France</Tuple>
+      <Tuple number="35" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="35" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Germany</Tuple>
+      <Tuple number="36" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="36" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Luxembourg</Tuple>
+      <Tuple number="37" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="37" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Netherlands</Tuple>
+      <Tuple number="38" Dimension="Crop.Crop_H1">[Crop.Crop_H1].[Crop].Wheat</Tuple>
+      <Tuple number="38" Dimension="Location.Location_H1">[Location.Location_H1].[Country].Switzerland</Tuple>
+    </Axis>
+    <Measure Ax0="1" Ax1="1">
+      <Value>9677142</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="1">
+      <Value>12568950</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="1">
+      <Value>18407133</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="1">
+      <Value>3432753</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="1">
+      <Value>3835449</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="1">
+      <Value>4630482</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="2">
+      <Value>29716920</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="2">
+      <Value>21515490</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="2">
+      <Value>41689890</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="2">
+      <Value>8733528</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="2">
+      <Value>9791964</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="2">
+      <Value>10003797</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="3">
+      <Value>31556268</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="3">
+      <Value>35450316</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="3">
+      <Value>41683518</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="3">
+      <Value>7028118</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="3">
+      <Value>7294302</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="3">
+      <Value>7220925</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="4">
+      <Value>39386115</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="4">
+      <Value>35880372</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="4">
+      <Value>50677497</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="4">
+      <Value>9672615</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="4">
+      <Value>10001421</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="4">
+      <Value>10130661</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="5">
+      <Value>63537039</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="5">
+      <Value>74855385</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="5">
+      <Value>83474280</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="5">
+      <Value>19581525</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="5">
+      <Value>19007838</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="5">
+      <Value>20501550</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="6">
+      <Value>6222753</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="6">
+      <Value>3658356</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="6">
+      <Value>11576970</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="6">
+      <Value>2682702</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="6">
+      <Value>2830383</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="6">
+      <Value>3710322</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="7">
+      <Value>49735710</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="7">
+      <Value>27400140</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="7">
+      <Value>64628820</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="7">
+      <Value>17931222</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="7">
+      <Value>17018280</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="7">
+      <Value>18885330</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="8">
+      <Value>404341920</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="8">
+      <Value>444311757</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="8">
+      <Value>573886260</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="8">
+      <Value>207441900</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="8">
+      <Value>211504500</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="8">
+      <Value>234632700</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="9">
+      <Value>12084237</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="9">
+      <Value>12416787</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="9">
+      <Value>16375320</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="9">
+      <Value>3158100</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="9">
+      <Value>3246282</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="9">
+      <Value>3362958</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="10">
+      <Value>125525700</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="10">
+      <Value>125439300</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="10">
+      <Value>232968600</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="10">
+      <Value>49599000</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="10">
+      <Value>53561700</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="10">
+      <Value>63482400</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="11">
+      <Value>43214400</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="11">
+      <Value>40672800</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="11">
+      <Value>45168300</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="11">
+      <Value>6176700</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="11">
+      <Value>6199200</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="11">
+      <Value>5743800</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="12">
+      <Value>1976310</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="12">
+      <Value>3111534</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="12">
+      <Value>3082500</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="12">
+      <Value>817578</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="12">
+      <Value>895500</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="12">
+      <Value>968400</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="13">
+      <Value>6156900</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="13">
+      <Value>7171200</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="13">
+      <Value>7087500</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="13">
+      <Value>1730700</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="13">
+      <Value>1823400</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="13">
+      <Value>1946700</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="14">
+      <Value>7209000</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="14">
+      <Value>6420600</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="14">
+      <Value>8937000</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="14">
+      <Value>787500</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="14">
+      <Value>758700</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="14">
+      <Value>996300</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="15">
+      <Value>5384700</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="15">
+      <Value>7265700</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="15">
+      <Value>8906400</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="15">
+      <Value>1935900</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="15">
+      <Value>2021400</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="15">
+      <Value>2309400</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="16">
+      <Value>7288200</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="16">
+      <Value>12516300</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="16">
+      <Value>15502500</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="16">
+      <Value>3094200</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="16">
+      <Value>3191400</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="16">
+      <Value>3631500</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="17">
+      <Value>3212865</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="17">
+      <Value>3609900</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="17">
+      <Value>4079700</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="17">
+      <Value>771732</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="17">
+      <Value>820935</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="17">
+      <Value>838530</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="18">
+      <Value>17706600</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="18">
+      <Value>20301300</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="18">
+      <Value>19819800</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="18">
+      <Value>3241350</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="18">
+      <Value>3244500</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="18">
+      <Value>3244500</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="19">
+      <Value>132723000</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="19">
+      <Value>118989000</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="19">
+      <Value>155043000</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="19">
+      <Value>16515000</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="19">
+      <Value>16470000</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="19">
+      <Value>18721890</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="20">
+      <Value>2078100</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="20">
+      <Value>2245500</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="20">
+      <Value>3015000</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="20">
+      <Value>675000</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="20">
+      <Value>632610</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="20">
+      <Value>750600</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="21">
+      <Value>2092464</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="21">
+      <Value>2314008</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="21">
+      <Value>2164797</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="21">
+      <Value>660132</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="21">
+      <Value>665712</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="21">
+      <Value>579528</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="22">
+      <Value>7241409</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="22">
+      <Value>7311123</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="22">
+      <Value>7724997</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="22">
+      <Value>1579959</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="22">
+      <Value>1575405</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="22">
+      <Value>1408824</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="23">
+      <Value>16003530</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="23">
+      <Value>14661648</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="23">
+      <Value>17453700</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="23">
+      <Value>7001109</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="23">
+      <Value>6559155</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="23">
+      <Value>5913900</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="24">
+      <Value>64635480</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="24">
+      <Value>64531629</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="24">
+      <Value>79698960</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="24">
+      <Value>17330859</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="24">
+      <Value>18903933</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="24">
+      <Value>20599641</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="25">
+      <Value>94500</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="25">
+      <Value>108000</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="25">
+      <Value>130500</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="25">
+      <Value>23400</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="25">
+      <Value>25200</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="25">
+      <Value>27000</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="26">
+      <Value>22473</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="26">
+      <Value>17721</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="26">
+      <Value>25704</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="26">
+      <Value>7272</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="26">
+      <Value>7272</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="26">
+      <Value>7434</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="27">
+      <Value>2246400</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="27">
+      <Value>1222200</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="27">
+      <Value>1829700</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="27">
+      <Value>942300</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="27">
+      <Value>560700</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="27">
+      <Value>794700</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="28">
+      <Value>16878015</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="28">
+      <Value>16774299</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="28">
+      <Value>18858600</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="28">
+      <Value>4858317</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="28">
+      <Value>5033313</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="28">
+      <Value>4386591</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="29">
+      <Value>1210041</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="29">
+      <Value>1200051</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="29">
+      <Value>1442673</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="29">
+      <Value>288747</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="29">
+      <Value>287100</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="29">
+      <Value>318717</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="30">
+      <Value>49694238</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="30">
+      <Value>57927231</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="30">
+      <Value>60428700</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="30">
+      <Value>17282097</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="30">
+      <Value>16229817</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="30">
+      <Value>18603000</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="31">
+      <Value>2639934</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="31">
+      <Value>1962900</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="31">
+      <Value>2625471</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="31">
+      <Value>877122</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="31">
+      <Value>817200</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="31">
+      <Value>769905</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="32">
+      <Value>12566700</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="32">
+      <Value>12594069</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="32">
+      <Value>15207192</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="32">
+      <Value>2561193</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="32">
+      <Value>2636784</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="32">
+      <Value>2670975</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="33">
+      <Value>14957622</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="33">
+      <Value>14196078</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="33">
+      <Value>16653654</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="33">
+      <Value>1811970</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="33">
+      <Value>1799073</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="33">
+      <Value>1901430</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="34">
+      <Value>318272400</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="34">
+      <Value>294871500</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="34">
+      <Value>351057348</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="34">
+      <Value>47211660</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="34">
+      <Value>47147400</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="34">
+      <Value>49431987</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="35">
+      <Value>201851100</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="35">
+      <Value>187452693</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="35">
+      <Value>233897085</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="35">
+      <Value>28032300</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="35">
+      <Value>26928675</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="35">
+      <Value>28921365</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="36">
+      <Value>680427</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="36">
+      <Value>634221</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="36">
+      <Value>879840</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="36">
+      <Value>113985</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="36">
+      <Value>113274</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="36">
+      <Value>132075</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="37">
+      <Value>10659600</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="37">
+      <Value>9162000</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="37">
+      <Value>12295458</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="37">
+      <Value>1269900</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="37">
+      <Value>1260000</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="37">
+      <Value>1408500</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="38">
+      <Value>4893300</Value>
+    </Measure>
+    <Measure Ax0="2" Ax1="38">
+      <Value>4887000</Value>
+    </Measure>
+    <Measure Ax0="3" Ax1="38">
+      <Value>4932873</Value>
+    </Measure>
+    <Measure Ax0="4" Ax1="38">
+      <Value>843858</Value>
+    </Measure>
+    <Measure Ax0="5" Ax1="38">
+      <Value>816525</Value>
+    </Measure>
+    <Measure Ax0="6" Ax1="38">
+      <Value>821295</Value>
+    </Measure>
+  </Cube>
+</Cubes>

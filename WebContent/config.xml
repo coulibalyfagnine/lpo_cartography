@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <olapLogFile>LPO_geo_Mondrian.log</olapLogFile>
+  <!-- Dans log de tomcat-->
+  <responseLogFile>config/CubeLog.xml</responseLogFile>
+  <responseTempFile>config/XMLduTableau.xml</responseTempFile>
+  <!-- <queryLogFile>C:\QueryLog.xml</queryLogFile> -->
+  <queryTempFile>config/XMLduSelect.xml</queryTempFile>
+  <!-- <wikiDirectory>C:\wamp\www\IrsteaWiki\data\pages\namespace</wikiDirectory>  -->
+  <indicateur>config/indicateur.xml</indicateur>
+  <display_conf>config/display_conf.xml</display_conf>
+  <!-- <gml>C:\Apache\apache-tomcat-6.0.35\webapps\map\GML.xml</gml> -->
+  <!-- <sld>C:\Apache\apache-tomcat-6.0.35\webapps\map\SLD.xml</sld> -->
+  <!-- <type_carte>GML_SLD</type_carte> -->
+  <!-- <type_carte>geoJSON</type_carte> -->
+  <type_carte>geoJSON</type_carte>
+  <geojson>Data Published/geoJSON</geojson>
+  <boundary>geo/boundary</boundary>
+  <templatejson>templates/template.json</templatejson>
+  <gml>map/GML</gml>
+  <sld>map/SLD.xml</sld>
+  <!-- <legende>C:\Apache\apache-tomcat-6.0.35\webapps\map\legende.csv</legende> -->
+  <legende>map/legende.html</legende>
+  <maps_title>map/title.txt</maps_title>
+</config>

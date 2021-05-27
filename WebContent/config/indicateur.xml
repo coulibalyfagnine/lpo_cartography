@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Indicateurs attribute0="Measures" attribute1="species">
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>2</Value>
+    <Spatial>40x40:(12)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>36</Value>
+    <Spatial>40x40:(15)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>436</Value>
+    <Spatial>40x40:(20)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>2</Value>
+    <Spatial>40x40:(23)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>246</Value>
+    <Spatial>40x40:(31)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>236</Value>
+    <Spatial>40x40:(35)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>35</Value>
+    <Spatial>40x40:(39)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>128</Value>
+    <Spatial>40x40:(4)</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
+    <Value>220</Value>
+    <Spatial>40x40:(6)</Spatial>
+  </Indicateur>
+</Indicateurs>

@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Indicateurs>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>9677142</Value>
+    <Spatial>Belarus</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>29716920</Value>
+    <Spatial>Bulgaria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>31556268</Value>
+    <Spatial>Czech Republic</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>39386115</Value>
+    <Spatial>Hungary</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>63537039</Value>
+    <Spatial>Poland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>6222753</Value>
+    <Spatial>Republic of Moldova</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>49735710</Value>
+    <Spatial>Romania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>404341920</Value>
+    <Spatial>Russian Federation</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>12084237</Value>
+    <Spatial>Slovakia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>125525700</Value>
+    <Spatial>Ukraine</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>43214400</Value>
+    <Spatial>Denmark</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>1976310</Value>
+    <Spatial>Estonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>6156900</Value>
+    <Spatial>Finland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>7209000</Value>
+    <Spatial>Ireland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>5384700</Value>
+    <Spatial>Latvia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>7288200</Value>
+    <Spatial>Lithuania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>3212865</Value>
+    <Spatial>Norway</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>17706600</Value>
+    <Spatial>Sweden</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>132723000</Value>
+    <Spatial>United Kingdom</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>2078100</Value>
+    <Spatial>Albania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>2092464</Value>
+    <Spatial>Bosnia and Herzegovina</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>7241409</Value>
+    <Spatial>Croatia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>16003530</Value>
+    <Spatial>Greece</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>64635480</Value>
+    <Spatial>Italy</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>94500</Value>
+    <Spatial>Malta</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>22473</Value>
+    <Spatial>Montenegro</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>2246400</Value>
+    <Spatial>Portugal</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>16878015</Value>
+    <Spatial>Serbia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>1210041</Value>
+    <Spatial>Slovenia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>49694238</Value>
+    <Spatial>Spain</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>2639934</Value>
+    <Spatial>The former Yugoslav Republic of Macedonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>12566700</Value>
+    <Spatial>Austria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>14957622</Value>
+    <Spatial>Belgium</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>318272400</Value>
+    <Spatial>France</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>201851100</Value>
+    <Spatial>Germany</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>680427</Value>
+    <Spatial>Luxembourg</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>10659600</Value>
+    <Spatial>Netherlands</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2006_._Wheat">
+    <Value>4893300</Value>
+    <Spatial>Switzerland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>12568950</Value>
+    <Spatial>Belarus</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>21515490</Value>
+    <Spatial>Bulgaria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>35450316</Value>
+    <Spatial>Czech Republic</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>35880372</Value>
+    <Spatial>Hungary</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>74855385</Value>
+    <Spatial>Poland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>3658356</Value>
+    <Spatial>Republic of Moldova</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>27400140</Value>
+    <Spatial>Romania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>444311757</Value>
+    <Spatial>Russian Federation</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>12416787</Value>
+    <Spatial>Slovakia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>125439300</Value>
+    <Spatial>Ukraine</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>40672800</Value>
+    <Spatial>Denmark</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>3111534</Value>
+    <Spatial>Estonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>7171200</Value>
+    <Spatial>Finland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>6420600</Value>
+    <Spatial>Ireland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>7265700</Value>
+    <Spatial>Latvia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>12516300</Value>
+    <Spatial>Lithuania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>3609900</Value>
+    <Spatial>Norway</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>20301300</Value>
+    <Spatial>Sweden</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>118989000</Value>
+    <Spatial>United Kingdom</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>2245500</Value>
+    <Spatial>Albania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>2314008</Value>
+    <Spatial>Bosnia and Herzegovina</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>7311123</Value>
+    <Spatial>Croatia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>14661648</Value>
+    <Spatial>Greece</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>64531629</Value>
+    <Spatial>Italy</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>108000</Value>
+    <Spatial>Malta</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>17721</Value>
+    <Spatial>Montenegro</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>1222200</Value>
+    <Spatial>Portugal</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>16774299</Value>
+    <Spatial>Serbia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>1200051</Value>
+    <Spatial>Slovenia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>57927231</Value>
+    <Spatial>Spain</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>1962900</Value>
+    <Spatial>The former Yugoslav Republic of Macedonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>12594069</Value>
+    <Spatial>Austria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>14196078</Value>
+    <Spatial>Belgium</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>294871500</Value>
+    <Spatial>France</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>187452693</Value>
+    <Spatial>Germany</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>634221</Value>
+    <Spatial>Luxembourg</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>9162000</Value>
+    <Spatial>Netherlands</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2007_._Wheat">
+    <Value>4887000</Value>
+    <Spatial>Switzerland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>18407133</Value>
+    <Spatial>Belarus</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>41689890</Value>
+    <Spatial>Bulgaria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>41683518</Value>
+    <Spatial>Czech Republic</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>50677497</Value>
+    <Spatial>Hungary</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>83474280</Value>
+    <Spatial>Poland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>11576970</Value>
+    <Spatial>Republic of Moldova</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>64628820</Value>
+    <Spatial>Romania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>573886260</Value>
+    <Spatial>Russian Federation</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>16375320</Value>
+    <Spatial>Slovakia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>232968600</Value>
+    <Spatial>Ukraine</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>45168300</Value>
+    <Spatial>Denmark</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>3082500</Value>
+    <Spatial>Estonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>7087500</Value>
+    <Spatial>Finland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>8937000</Value>
+    <Spatial>Ireland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>8906400</Value>
+    <Spatial>Latvia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>15502500</Value>
+    <Spatial>Lithuania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>4079700</Value>
+    <Spatial>Norway</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>19819800</Value>
+    <Spatial>Sweden</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>155043000</Value>
+    <Spatial>United Kingdom</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>3015000</Value>
+    <Spatial>Albania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>2164797</Value>
+    <Spatial>Bosnia and Herzegovina</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>7724997</Value>
+    <Spatial>Croatia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>17453700</Value>
+    <Spatial>Greece</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>79698960</Value>
+    <Spatial>Italy</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>130500</Value>
+    <Spatial>Malta</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>25704</Value>
+    <Spatial>Montenegro</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>1829700</Value>
+    <Spatial>Portugal</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>18858600</Value>
+    <Spatial>Serbia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>1442673</Value>
+    <Spatial>Slovenia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>60428700</Value>
+    <Spatial>Spain</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>2625471</Value>
+    <Spatial>The former Yugoslav Republic of Macedonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>15207192</Value>
+    <Spatial>Austria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>16653654</Value>
+    <Spatial>Belgium</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>351057348</Value>
+    <Spatial>France</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>233897085</Value>
+    <Spatial>Germany</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>879840</Value>
+    <Spatial>Luxembourg</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>12295458</Value>
+    <Spatial>Netherlands</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Production_Quantity_._2008_._Wheat">
+    <Value>4932873</Value>
+    <Spatial>Switzerland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>3432753</Value>
+    <Spatial>Belarus</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>8733528</Value>
+    <Spatial>Bulgaria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>7028118</Value>
+    <Spatial>Czech Republic</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>9672615</Value>
+    <Spatial>Hungary</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>19581525</Value>
+    <Spatial>Poland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>2682702</Value>
+    <Spatial>Republic of Moldova</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>17931222</Value>
+    <Spatial>Romania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>207441900</Value>
+    <Spatial>Russian Federation</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>3158100</Value>
+    <Spatial>Slovakia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>49599000</Value>
+    <Spatial>Ukraine</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>6176700</Value>
+    <Spatial>Denmark</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>817578</Value>
+    <Spatial>Estonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>1730700</Value>
+    <Spatial>Finland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>787500</Value>
+    <Spatial>Ireland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>1935900</Value>
+    <Spatial>Latvia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>3094200</Value>
+    <Spatial>Lithuania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>771732</Value>
+    <Spatial>Norway</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>3241350</Value>
+    <Spatial>Sweden</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>16515000</Value>
+    <Spatial>United Kingdom</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>675000</Value>
+    <Spatial>Albania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>660132</Value>
+    <Spatial>Bosnia and Herzegovina</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>1579959</Value>
+    <Spatial>Croatia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>7001109</Value>
+    <Spatial>Greece</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>17330859</Value>
+    <Spatial>Italy</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>23400</Value>
+    <Spatial>Malta</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>7272</Value>
+    <Spatial>Montenegro</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>942300</Value>
+    <Spatial>Portugal</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>4858317</Value>
+    <Spatial>Serbia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>288747</Value>
+    <Spatial>Slovenia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>17282097</Value>
+    <Spatial>Spain</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>877122</Value>
+    <Spatial>The former Yugoslav Republic of Macedonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>2561193</Value>
+    <Spatial>Austria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>1811970</Value>
+    <Spatial>Belgium</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>47211660</Value>
+    <Spatial>France</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>28032300</Value>
+    <Spatial>Germany</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>113985</Value>
+    <Spatial>Luxembourg</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>1269900</Value>
+    <Spatial>Netherlands</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2006_._Wheat">
+    <Value>843858</Value>
+    <Spatial>Switzerland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>3835449</Value>
+    <Spatial>Belarus</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>9791964</Value>
+    <Spatial>Bulgaria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>7294302</Value>
+    <Spatial>Czech Republic</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>10001421</Value>
+    <Spatial>Hungary</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>19007838</Value>
+    <Spatial>Poland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>2830383</Value>
+    <Spatial>Republic of Moldova</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>17018280</Value>
+    <Spatial>Romania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>211504500</Value>
+    <Spatial>Russian Federation</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>3246282</Value>
+    <Spatial>Slovakia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>53561700</Value>
+    <Spatial>Ukraine</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>6199200</Value>
+    <Spatial>Denmark</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>895500</Value>
+    <Spatial>Estonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>1823400</Value>
+    <Spatial>Finland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>758700</Value>
+    <Spatial>Ireland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>2021400</Value>
+    <Spatial>Latvia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>3191400</Value>
+    <Spatial>Lithuania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>820935</Value>
+    <Spatial>Norway</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>3244500</Value>
+    <Spatial>Sweden</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>16470000</Value>
+    <Spatial>United Kingdom</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>632610</Value>
+    <Spatial>Albania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>665712</Value>
+    <Spatial>Bosnia and Herzegovina</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>1575405</Value>
+    <Spatial>Croatia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>6559155</Value>
+    <Spatial>Greece</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>18903933</Value>
+    <Spatial>Italy</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>25200</Value>
+    <Spatial>Malta</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>7272</Value>
+    <Spatial>Montenegro</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>560700</Value>
+    <Spatial>Portugal</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>5033313</Value>
+    <Spatial>Serbia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>287100</Value>
+    <Spatial>Slovenia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>16229817</Value>
+    <Spatial>Spain</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>817200</Value>
+    <Spatial>The former Yugoslav Republic of Macedonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>2636784</Value>
+    <Spatial>Austria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>1799073</Value>
+    <Spatial>Belgium</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>47147400</Value>
+    <Spatial>France</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>26928675</Value>
+    <Spatial>Germany</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>113274</Value>
+    <Spatial>Luxembourg</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>1260000</Value>
+    <Spatial>Netherlands</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2007_._Wheat">
+    <Value>816525</Value>
+    <Spatial>Switzerland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>4630482</Value>
+    <Spatial>Belarus</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>10003797</Value>
+    <Spatial>Bulgaria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>7220925</Value>
+    <Spatial>Czech Republic</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>10130661</Value>
+    <Spatial>Hungary</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>20501550</Value>
+    <Spatial>Poland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>3710322</Value>
+    <Spatial>Republic of Moldova</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>18885330</Value>
+    <Spatial>Romania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>234632700</Value>
+    <Spatial>Russian Federation</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>3362958</Value>
+    <Spatial>Slovakia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>63482400</Value>
+    <Spatial>Ukraine</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>5743800</Value>
+    <Spatial>Denmark</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>968400</Value>
+    <Spatial>Estonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>1946700</Value>
+    <Spatial>Finland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>996300</Value>
+    <Spatial>Ireland</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>2309400</Value>
+    <Spatial>Latvia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>3631500</Value>
+    <Spatial>Lithuania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>838530</Value>
+    <Spatial>Norway</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>3244500</Value>
+    <Spatial>Sweden</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>18721890</Value>
+    <Spatial>United Kingdom</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>750600</Value>
+    <Spatial>Albania</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>579528</Value>
+    <Spatial>Bosnia and Herzegovina</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>1408824</Value>
+    <Spatial>Croatia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>5913900</Value>
+    <Spatial>Greece</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>20599641</Value>
+    <Spatial>Italy</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>27000</Value>
+    <Spatial>Malta</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>7434</Value>
+    <Spatial>Montenegro</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>794700</Value>
+    <Spatial>Portugal</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>4386591</Value>
+    <Spatial>Serbia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>318717</Value>
+    <Spatial>Slovenia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>18603000</Value>
+    <Spatial>Spain</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>769905</Value>
+    <Spatial>The former Yugoslav Republic of Macedonia</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>2670975</Value>
+    <Spatial>Austria</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>1901430</Value>
+    <Spatial>Belgium</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>49431987</Value>
+    <Spatial>France</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>28921365</Value>
+    <Spatial>Germany</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>132075</Value>
+    <Spatial>Luxembourg</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>1408500</Value>
+    <Spatial>Netherlands</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._Area_HarvestedRond_._2008_._Wheat">
+    <Value>821295</Value>
+    <Spatial>Switzerland</Spatial>
+  </Indicateur>
+</Indicateurs>

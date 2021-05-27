@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config_base>
+
+  <DataBase>PostgreSQL</DataBase>
+  <Driver>org.postgresql.Driver</Driver>
+  <jdbc>jdbc:postgresql</jdbc>
+  <URL>127.0.0.1</URL>
+  <Port>5432</Port>
+  
+  <User>postgres</User>
+  
+  <Pass>0000</Pass>
+  
+     <!-- <Base>lpoFINAL</Base>  -->
+   <!-- <Table>lpo_geo</Table>  -->
+  
+<!--   <Base>geosystems_crime</Base> -->
+<!--   <Table>crime_geo</Table> -->
+  
+  <Base>oabV1</Base>
+  <Table>oab_geometry_multilayer</Table>
+  
+<!--   <Table>Location_geom_pls</Table> -->
+  
+  <!--  <Table>Location_geom_spatial</Table>  -->
+<!--   <Table>Location_geom_multilayer</Table> -->
+  
+  <Levels>
+    <Level>
+      <N>location_nom</N>
+      <NIV>niveau_spatial</NIV>
+      <GEOM>geom</GEOM>
+      <CENT>centroid</CENT>
+      <ARD>all_region_departement</ARD>
+      <AR>all_region</AR>
+      <AD>all_departement</AD>
+      <RD>region_departement</RD> 
+      <BRD>bar_region_departement</BRD> 
+      <TLOC>parcelle</TLOC> 
+<!--       <TLOC>france_location_all</TLOC>  -->
+      <TDEP>dep_name</TDEP> 
+<!-- 	  <TDEP>code_dept</TDEP>  -->
+      <TREG>region_name</TREG>
+    </Level>
+  </Levels>
+  
+</config_base>
+
+
+

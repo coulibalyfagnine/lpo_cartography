@@ -1,0 +1,202 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.61 [en] (WinNT; I) [Netscape]">
+   <meta name="Author">
+   <title> Single map </title>
+   
+    <script src="./lib/OpenLayers.js"></script>
+   
+   <script type="text/javascript">
+
+
+var map, layer;
+
+var layerList; 
+var legende;
+var legendes;
+var title_Map;
+
+//lire les paramètres
+var parameters = location.search.substring(1).split("&");
+
+var temp = parameters[0].split("=");
+N = unescape(temp[1]);
+
+var temp1 = parameters[1].split("=");
+title_Map = unescape(temp1[1]);
+
+var temp2 = parameters[2].split("=");
+Layers_selected = unescape(temp2[1]);
+Layers_selected = Layers_selected.split(",");
+
+
+function init(){	
+	//lire le fichier legende
+	var text;
+	var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", "legende.html", false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                text = rawFile.responseText;
+            }
+        }
+    }
+    legendes = [];
+    rawFile.send(null);
+    legendes = text.split("<br><br>");
+	
+	legende = document.getElementById("legende");
+
+	for(var i = 0; i<legendes.length; i++)
+		if (Layers_selected[i] === 'true'){
+			/////////////
+		    var temp = title_Map.split(",");
+			var bool = false;
+		    var measure;
+		    for (var j=0; j < temp.length; j++)
+		    	{
+		    	var temp2 = temp[j].split("[");
+		   		measure = temp2[0];    
+		   		if (legendes[i].indexOf(measure)!=-1)
+		   			bool = true;
+		    	}
+
+			///////////////
+			if (bool)
+				{
+				span = document.createElement("span");
+				//span.setAttribute("id","lspan" +index);
+				span.innerHTML += legendes[i]+"<br><br>";
+				legende.appendChild(span);
+				}
+
+		}
+	
+	    OpenLayers.Request.GET({
+        url: "SLD.xml",
+        success: complete
+    });
+	    
+}
+	
+	function complete(req) {
+	var format = new OpenLayers.Format.SLD();
+    var sld = format.read(req.responseXML || req.responseText);
+    
+    
+    /////////////////////////////
+    
+    layerList = [];
+    map = new OpenLayers.Map('map');
+    layer = new OpenLayers.Layer.WMS( "OpenLayers WMS",
+            "http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'} );
+    map.addLayer(layer);
+    map.zoomToExtent(new OpenLayers.Bounds(-5,65,65,40));
+	
+	// allow testing of specific renderers via "?renderer=Canvas", etc
+   //         var renderer = OpenLayers.Util.getParameters(window.location.href).renderer;
+   //         renderer = (renderer) ? [renderer] : OpenLayers.Layer.Vector.prototype.renderers;
+			
+   var nb = sld.namedLayers["Simple point"].userStyles;
+
+	//on commence par le deuxiéme Layer parce que le premier est le Background
+	for (var i = 0; i<nb.length; ++i) {
+//		alr_bool[i] = false;//aucune legende n'est pas encore affichée
+		layerList[i] = new OpenLayers.Layer.Vector("GML", {
+			protocol: new OpenLayers.Protocol.HTTP({
+				url: "GML"+N+".xml",
+				format: new OpenLayers.Format.GML()
+			}),
+			strategies: [new OpenLayers.Strategy.Fixed()], 
+			styleMap: new OpenLayers.StyleMap()
+		});
+		map.addLayer(layerList[i]);
+		layerList[i].visibility = true;
+
+ 		map.addControl(new OpenLayers.Control.SelectFeature(
+ 				layerList[i], {hover: true, autoActivate: true}
+		));
+	
+
+// 	var aVectorLayer = new OpenLayers.Layer.Vector("GML", {
+//                           protocol: new OpenLayers.Protocol.HTTP({
+//                             url: "GML.xml"+N,
+//                             format: new OpenLayers.Format.GML()
+//                           }),
+//                           strategies: [new OpenLayers.Strategy.Fixed()]
+//     });
+//      map.addLayer( aVectorLayer );
+    /////////////////////////////
+	
+// 	aVectorLayer.styleMap.styles["default"] = sld.namedLayers["Simple point"].userStyles[0];//use 0 if there's only one user styles
+// 	aVectorLayer.redraw();
+
+	layerList[i].styleMap.styles["default"] = sld.namedLayers["Simple point"].userStyles[i];//use 0 if there's only one user styles
+	
+	if (i==0)
+		//on affiche le Background
+		layerList[i].setVisibility(true);
+	else
+		//on affiche les couches selon la sélection de l'utilisateur
+		layerList[i].setVisibility(Layers_selected[i-1] === 'true');
+
+	//window.alert("Layers="+Layers_selected[i]);
+	//layerList[i].setVisibility(false);
+	layerList[i].redraw();
+	
+	layerList[i].styleMap.styles.select = sld.namedLayers["Simple point"].userStyles[i];
+
+	}	
+	
+	
+}
+ 
+</script>
+</head>
+<body onload="init()">
+<!-- <H1>Test</H1> -->
+
+<H1 id="title" ALIGN=CENTER>
+	<script>		
+		document.getElementById("title").innerHTML = title_Map;
+	</script>
+</H1>
+
+<!-- <iframe height="650px" width="660px" src="http://localhost:8080/geomondrian/testpage.jsp?query=testXMLAFAO"> 
+</iframe>  -->
+<!-- <iframe height="650px" width="1200px" src="./sld.html">
+</iframe>  -->
+
+<div style= "width:100%; height:100%;">
+<div id="legende" style= "float:right; width:15%; height:100%;">
+	<!-- <iframe width=100%; height=100%; border=1px src="legende.html"></iframe> -->
+</div> 
+  
+  <div id="map" style= "float:left; width:85%; height:100%; margin-left: auto; margin-right: auto;"></div>
+
+</div>
+
+</body>
+</html>
