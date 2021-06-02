@@ -3152,6 +3152,8 @@ public class GeoJSON {
 		templateJsonData.put("mapCenter", mapCenter);
 		templateJsonData.put("mapZoom", 7);
 		templateJsonData.put("titleBarEnabled", true);
+		
+		String protocole = "http";
 
 		if (export.equals("local")) {
 			templateJsonData.put("tileServer", "");
@@ -3322,19 +3324,21 @@ public class GeoJSON {
 		System.out.println(" -------------- > " + f_empty);
 		System.out.println(" -------------- > " + f_empty.getPath());
 		System.out.println(" -------------- > " + f_empty.getAbsolutePath());
-
+		
+		
 		if (export.equals("VM")) {
-			chartConfiguration.put("featureData", "http://" + hote + "/MappeChest/" + file_name_d); // TODO changer le
+			chartConfiguration.put("featureData", protocole+"://" + hote + "/MappeChest/" + file_name_d); // TODO changer le
 																									// chemin de fichier
 																									// de donnÃ©es
+			chartConfiguration.put("featureData", protocole+"://" + hote + "/MappeChest/" + file_name_d);
 		}
 
-		if (export.equals("local")) {
-			chartConfiguration.put("featureData",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_d); // TODO changer le chemin
-																								// de
-																								// fichier de donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			chartConfiguration.put("featureData",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_d); // TODO changer le chemin
+//																								// de
+//																								// fichier de donnÃ©es
+//		}
 
 		chartConfiguration.put("pauseLiveStreaming", false);
 		chartConfiguration.put("themeFieldName", null);
@@ -3451,40 +3455,40 @@ public class GeoJSON {
 		JSONObject custStageModDataset = new JSONObject();
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			custStageModDataset.put("dataset", "http://" + hote + "/MappeChest/" + file_name_d); // TODO changer le
+			custStageModDataset.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_d); // TODO changer le
 																									// chemin de fichier
 																									// de donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			custStageModDataset.put("dataset",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_d); // TODO changer le
-																								// chemin de fichier
-																								// de
-																								// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			custStageModDataset.put("dataset",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_d); // TODO changer le
+//																								// chemin de fichier
+//																								// de
+//																								// donnÃ©es
+//		}
 
 		customStageModelConfiguration.add(custStageModDataset);
 
 		JSONObject custStageModStage = new JSONObject();
 		custStageModStage.put("stageId", "polygon_geo");
 		if (export.equals("VM")) {
-			custStageModStage.put("dataset", "http://" + hote + "/MappeChest/" + file_name_e); // TODO changer le
+			custStageModStage.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_e); // TODO changer le
 																								// chemin de
 																								// fichier de
 																								// donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			custStageModStage.put("dataset", "https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_e); // TODO
-																														// changer
-																														// le
-																														// chemin
-																														// de
-																														// fichier
-																														// de
-																														// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			custStageModStage.put("dataset", "https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_e); // TODO
+//																														// changer
+//																														// le
+//																														// chemin
+//																														// de
+//																														// fichier
+//																														// de
+//																														// donnÃ©es
+//		}
 
 		customStageModelConfiguration.add(custStageModStage);
 		if (f_empty.length() != 0)
@@ -3649,6 +3653,10 @@ public class GeoJSON {
 
 		templateJsonData.put("mapZoom", 7);
 		templateJsonData.put("titleBarEnabled", true);
+		
+		
+		String protocole = "http";
+		
 
 		if (export.equals("local")) {
 			templateJsonData.put("tileServer", "");
@@ -3801,19 +3809,19 @@ public class GeoJSON {
 		System.out.println(" -------------- > " + f_bar.getName());
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			chartConfiguration.put("featureData", "http://" + hote + "/MappeChest/" + file_name_bar); // TODO changer
+			chartConfiguration.put("featureData", protocole+"://" + hote + "/MappeChest/" + file_name_bar); // TODO changer
 																										// le chemin de
 																										// fichier de
 																										// donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			chartConfiguration.put("featureData",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
-																									// chemin de fichier
-																									// de
-																									// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			chartConfiguration.put("featureData",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
+//																									// chemin de fichier
+//																									// de
+//																									// donnÃ©es
+//		}
 
 		chartConfiguration.put("pauseLiveStreaming", false);
 		chartConfiguration.put("themeFieldName", null);
@@ -3913,37 +3921,37 @@ public class GeoJSON {
 		JSONObject custStageModDataset = new JSONObject();
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			custStageModDataset.put("dataset", "http://" + hote + "/MappeChest/" + file_name_bar); // TODO changer le
+			custStageModDataset.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_bar); // TODO changer le
 																									// chemin de fichier
 																									// de donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			custStageModDataset.put("dataset",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
-																									// chemin de fichier
-																									// de
-																									// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			custStageModDataset.put("dataset",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
+//																									// chemin de fichier
+//																									// de
+//																									// donnÃ©es
+//		}
 
 		customStageModelConfiguration.add(custStageModDataset);
 
 		JSONObject custStageModStage = new JSONObject();
 		custStageModStage.put("stageId", "polygon_geo");
 		if (export.equals("VM") || export.equals("VM_local")) {
-			custStageModStage.put("dataset", "http://" + hote + "/MappeChest/" + file_name_polygon); // TODO changer le
+			custStageModStage.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_polygon); // TODO changer le
 																										// chemin de
 																										// fichier de
 																										// donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			custStageModStage.put("dataset",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_polygon); // TODO changer le
-																										// chemin de
-																										// fichier
-																										// de donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			custStageModStage.put("dataset",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_polygon); // TODO changer le
+//																										// chemin de
+//																										// fichier
+//																										// de donnÃ©es
+//		}
 
 		customStageModelConfiguration.add(custStageModStage);
 
@@ -4112,6 +4120,8 @@ public class GeoJSON {
 
 		templateJsonData.put("mapZoom", 7);
 		templateJsonData.put("titleBarEnabled", true);
+		
+		String protocole = "http";
 
 		if (export.equals("local")) {
 			templateJsonData.put("tileServer", "");
@@ -4291,20 +4301,20 @@ public class GeoJSON {
 //	liste_fichier_mesure.get(measure.get(0))
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			chartConfiguration.put("featureData", "http://" + hote + "/MappeChest/" + file_name_bar); // TODO changer
+			chartConfiguration.put("featureData", protocole+"://" + hote + "/MappeChest/" + file_name_bar); // TODO changer
 																										// le chemin de
 																										// fichier de
 																										// donnÃ©es
 //		chartConfiguration.put("featureData","http://51.38.196.163/MappeChest/" + liste_fichier_mesure.get(measure.get(0))+".json");
 		}
 
-		if (export.equals("local")) {
-			chartConfiguration.put("featureData",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
-																									// chemin de fichier
-																									// de
-																									// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			chartConfiguration.put("featureData",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
+//																									// chemin de fichier
+//																									// de
+//																									// donnÃ©es
+//		}
 
 		chartConfiguration.put("pauseLiveStreaming", false);
 		chartConfiguration.put("themeFieldName", null);
@@ -4535,25 +4545,25 @@ public class GeoJSON {
 		JSONObject custStageModDataset = new JSONObject();
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			custStageModDataset.put("dataset", "http://" + hote + "/MappeChest/" + file_name_bar); // TODO changer le
+			custStageModDataset.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_bar); // TODO changer le
 																									// chemin de fichier
 																									// de donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			custStageModDataset.put("dataset",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
-																									// chemin de fichier
-																									// de
-																									// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			custStageModDataset.put("dataset",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
+//																									// chemin de fichier
+//																									// de
+//																									// donnÃ©es
+//		}
 
 		customStageModelConfiguration.add(custStageModDataset);
 
 		JSONObject custStageModStage = new JSONObject();
 		custStageModStage.put("stageId", "polygon_geo");
 		if (export.equals("VM") || export.equals("VM_local")) {
-			custStageModStage.put("dataset", "http://" + hote + "/MappeChest/" + file_name_polygon); // TODO changer le
+			custStageModStage.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_polygon); // TODO changer le
 																										// chemin de
 																										// fichier de
 																										// donnÃ©es
@@ -4567,20 +4577,20 @@ public class GeoJSON {
 				JSONObject custStageModStage1 = new JSONObject();
 				custStageModStage1.put("stageId", stage_bar[ct_mes - 1][1]);
 				File f_bar_ = new File(liste_fichier_mesure.get(measure.get(ct_mes)) + ".json");
-				custStageModStage1.put("dataset", "http://" + hote + "/MappeChest/" + f_bar_.getName());
+				custStageModStage1.put("dataset", protocole+"://" + hote + "/MappeChest/" + f_bar_.getName());
 				customStageModelConfiguration.add(custStageModStage1);
 				ct_mes++;
 			}
 
 		}
 
-		if (export.equals("local")) {
-			custStageModStage.put("dataset",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_polygon); // TODO changer le
-																										// chemin de
-																										// fichier
-																										// de donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			custStageModStage.put("dataset",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_polygon); // TODO changer le
+//																										// chemin de
+//																										// fichier
+//																										// de donnÃ©es
+//		}
 
 //  customStageModelConfiguration.add(custStageModStage);
 
@@ -4759,7 +4769,9 @@ public class GeoJSON {
 
 		templateJsonData.put("mapZoom", 6);
 		templateJsonData.put("titleBarEnabled", true);
-
+		
+		String protocole = "http";
+		
 		if (export.equals("local")) {
 			templateJsonData.put("tileServer", "");
 			templateJsonData.put("enterpriseBaseMapId", "0f3f8b1f-fa2f-4e60-b5c4-f6c5ac0a703c");
@@ -4943,20 +4955,20 @@ public class GeoJSON {
 				geoJSONBar_file + niv_mes[0][1].replace(" ", "_").replace(":", "_") + "_" + niv_mes[0][0] + ".json")
 						.getName();
 		if (export.equals("VM") || export.equals("VM_local")) {
-			chartConfiguration.put("featureData", "http://" + hote + "/MappeChest/" + file_name_bar); // TODO changer
+			chartConfiguration.put("featureData", protocole+"://" + hote + "/MappeChest/" + file_name_bar); // TODO changer
 																										// le chemin de
 																										// fichier de
 																										// donnÃ©es
 //		chartConfiguration.put("featureData","http://51.38.196.163/MappeChest/" + liste_fichier_mesure.get(measure.get(0))+".json");
 		}
 
-		if (export.equals("local")) {
-			chartConfiguration.put("featureData",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
-																									// chemin de fichier
-																									// de
-																									// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			chartConfiguration.put("featureData",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
+//																									// chemin de fichier
+//																									// de
+//																									// donnÃ©es
+//		}
 
 		chartConfiguration.put("pauseLiveStreaming", false);
 		chartConfiguration.put("themeFieldName", null);
@@ -5349,18 +5361,18 @@ public class GeoJSON {
 		System.out.println(" -> file name bar : " + file_name_bar);
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			custStageModDataset.put("dataset", "http://" + hote + "/MappeChest/" + file_name_bar); // TODO changer le
+			custStageModDataset.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_bar); // TODO changer le
 																									// chemin de fichier
 																									// de donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			custStageModDataset.put("dataset",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
-																									// chemin de fichier
-																									// de
-																									// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			custStageModDataset.put("dataset",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar); // TODO changer le
+//																									// chemin de fichier
+//																									// de
+//																									// donnÃ©es
+//		}
 
 		customStageModelConfiguration.add(custStageModDataset);
 
@@ -5380,7 +5392,7 @@ public class GeoJSON {
 			custStageModStage.put("stageId", "stage_polygon_" + niv);
 
 			if (export.equals("VM") || export.equals("VM_local")) {
-				custStageModStage.put("dataset", "http://" + hote + "/MappeChest/" + file_name_polygon); // TODO
+				custStageModStage.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_polygon); // TODO
 																											// changer
 																											// le chemin
 																											// de
@@ -5406,7 +5418,7 @@ public class GeoJSON {
 			File f_bar_ = new File(
 					geoJSONBar_file + niv_mes[ct_mes][1].replace(" ", "_").replace(":", "_").toLowerCase() + "_"
 							+ niv_mes[ct_mes][0] + ".json");
-			custStageModStage1.put("dataset", "http://" + hote + "/MappeChest/" + f_bar_.getName());
+			custStageModStage1.put("dataset", protocole+"://" + hote + "/MappeChest/" + f_bar_.getName());
 			customStageModelConfiguration.add(custStageModStage1);
 			ct_mes++;
 
@@ -5606,6 +5618,8 @@ public class GeoJSON {
 		templateJsonData.put("mapCenter", mapCenter);
 		templateJsonData.put("mapZoom", 7);
 		templateJsonData.put("titleBarEnabled", true);
+		
+		String protocole = "http";
 
 		if (export.equals("local")) {
 			templateJsonData.put("tileServer", "");
@@ -5786,7 +5800,7 @@ public class GeoJSON {
 //	System.out.println(" -------------- > " + f_bar.getName() );
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			chartConfiguration.put("featureData", "http://" + hote + "/MappeChest/" + file_name_bar_departement); // TODO
+			chartConfiguration.put("featureData", protocole+"://" + hote + "/MappeChest/" + file_name_bar_departement); // TODO
 																													// changer
 																													// le
 																													// chemin
@@ -5796,17 +5810,17 @@ public class GeoJSON {
 																													// donnÃ©es
 		}
 
-		if (export.equals("local")) {
-			chartConfiguration.put("featureData",
-					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar_departement); // TODO
-																												// changer
-																												// le
-																												// chemin
-																												// de
-																												// fichier
-																												// de
-																												// donnÃ©es
-		}
+//		if (export.equals("local")) {
+//			chartConfiguration.put("featureData",
+//					"https://mapps.geosystems.fr/MappeChest/Vectors/VGI4Temp/" + file_name_bar_departement); // TODO
+//																												// changer
+//																												// le
+//																												// chemin
+//																												// de
+//																												// fichier
+//																												// de
+//																												// donnÃ©es
+//		}
 
 		chartConfiguration.put("pauseLiveStreaming", false);
 		chartConfiguration.put("themeFieldName", null);
@@ -6033,7 +6047,7 @@ public class GeoJSON {
 //	String file_name_bar_region = f_bar_region.getName();
 
 		if (export.equals("VM") || export.equals("VM_local")) {
-			custStageModDataset.put("dataset", "http://" + hote + "/MappeChest/" + file_name_bar_departement);
+			custStageModDataset.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_bar_departement);
 //		custStageModDataset.put("dataset","http://51.38.196.163/MappeChest/" + file_name_bar_region);
 //		custStageModDataset.put("dataset","http://51.38.196.163/MappeChest/" + file_name_polygon_departement);
 //		custStageModDataset.put("dataset","http://51.38.196.163/MappeChest/" + file_name_polygon_region); // TODO changer le chemin de fichier de donnÃ©es
@@ -6048,7 +6062,7 @@ public class GeoJSON {
 		if (export.equals("VM") || export.equals("VM_local")) {
 			JSONObject custStageModStage1 = new JSONObject();
 			custStageModStage1.put("stageId", "stage_bar_region");
-			custStageModStage1.put("dataset", "http://" + hote + "/MappeChest/" + file_name_bar_region); // TODO
+			custStageModStage1.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_bar_region); // TODO
 																											// changer
 																											// le chemin
 																											// de
@@ -6059,7 +6073,7 @@ public class GeoJSON {
 
 			JSONObject custStageModStage2 = new JSONObject();
 			custStageModStage2.put("stageId", "stage_polygon_region");
-			custStageModStage2.put("dataset", "http://" + hote + "/MappeChest/" + file_name_polygon_region); // TODO
+			custStageModStage2.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_polygon_region); // TODO
 																												// changer
 																												// le
 																												// chemin
@@ -6071,7 +6085,7 @@ public class GeoJSON {
 
 			JSONObject custStageModStage3 = new JSONObject();
 			custStageModStage3.put("stageId", "stage_polygon_departement");
-			custStageModStage3.put("dataset", "http://" + hote + "/MappeChest/" + file_name_polygon_departement); // TODO
+			custStageModStage3.put("dataset", protocole+"://" + hote + "/MappeChest/" + file_name_polygon_departement); // TODO
 																													// changer
 																													// le
 																													// chemin
