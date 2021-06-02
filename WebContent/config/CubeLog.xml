@@ -1,50 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Cubes>
-  <Cube id="0d9bf3adaecbc9e710fea6e8d9cc9e75">
-    <Slicer name="location.location_departement">[location.location_departement].[(All)].All location</Slicer>
-    <Slicer name="date">[date].[(All)].All date</Slicer>
-    <Slicer name="atlas">[atlas].[atlas].0</Slicer>
+  <Cube id="457b116793f570fd52f4b90dd9fd8fdc">
     <Axis name="Axis0">
-      <Tuple number="1" Dimension="Measures">[Measures].[MeasuresLevel].nbr of atlas</Tuple>
-      <Tuple number="1" Dimension="species">[species].[species_name].Guillemot de Troïl</Tuple>
+      <Tuple number="1" Dimension="Measures">[Measures].[MeasuresLevel].diversites</Tuple>
     </Axis>
     <Axis name="Axis1">
-      <Tuple number="1" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(12)</Tuple>
-      <Tuple number="2" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(15)</Tuple>
-      <Tuple number="3" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(20)</Tuple>
-      <Tuple number="4" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(23)</Tuple>
-      <Tuple number="5" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(31)</Tuple>
-      <Tuple number="6" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(35)</Tuple>
-      <Tuple number="7" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(39)</Tuple>
-      <Tuple number="8" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(4)</Tuple>
-      <Tuple number="9" Dimension="MAILLES.location_grille">[MAILLES.location_grille].[40x40].40x40:(6)</Tuple>
+      <Tuple number="1" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].ALSACE</Tuple>
+      <Tuple number="1" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="2" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].ALSACE</Tuple>
+      <Tuple number="2" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="3" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].ALSACE</Tuple>
+      <Tuple number="3" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="4" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].AQUITAINE</Tuple>
+      <Tuple number="4" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="5" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].AQUITAINE</Tuple>
+      <Tuple number="5" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="6" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].AQUITAINE</Tuple>
+      <Tuple number="6" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="7" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].AUVERGNE</Tuple>
+      <Tuple number="7" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="8" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].AUVERGNE</Tuple>
+      <Tuple number="8" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="9" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BASSE-NORMANDIE</Tuple>
+      <Tuple number="9" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="10" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BASSE-NORMANDIE</Tuple>
+      <Tuple number="10" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="11" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BASSE-NORMANDIE</Tuple>
+      <Tuple number="11" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="12" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BOURGOGNE</Tuple>
+      <Tuple number="12" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="13" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BOURGOGNE</Tuple>
+      <Tuple number="13" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="14" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BOURGOGNE</Tuple>
+      <Tuple number="14" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="15" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BRETAGNE</Tuple>
+      <Tuple number="15" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="16" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BRETAGNE</Tuple>
+      <Tuple number="16" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="17" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].BRETAGNE</Tuple>
+      <Tuple number="17" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="18" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].CENTRE</Tuple>
+      <Tuple number="18" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="19" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].CENTRE</Tuple>
+      <Tuple number="19" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="20" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].CENTRE</Tuple>
+      <Tuple number="20" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="21" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].CHAMPAGNE-ARDENNE</Tuple>
+      <Tuple number="21" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="22" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].CHAMPAGNE-ARDENNE</Tuple>
+      <Tuple number="22" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="23" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].CHAMPAGNE-ARDENNE</Tuple>
+      <Tuple number="23" Dimension="conduite">[conduite].[conduite].CONDUITE NON RENSEIGNEE</Tuple>
+      <Tuple number="24" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].CHAMPAGNE-ARDENNE</Tuple>
+      <Tuple number="24" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="25" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].FRANCHE-COMTE</Tuple>
+      <Tuple number="25" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="26" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].FRANCHE-COMTE</Tuple>
+      <Tuple number="26" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="27" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].FRANCHE-COMTE</Tuple>
+      <Tuple number="27" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="28" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].HAUTE-NORMANDIE</Tuple>
+      <Tuple number="28" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="29" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].HAUTE-NORMANDIE</Tuple>
+      <Tuple number="29" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="30" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].HAUTE-NORMANDIE</Tuple>
+      <Tuple number="30" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="31" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].ILE-DE-FRANCE</Tuple>
+      <Tuple number="31" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="32" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].ILE-DE-FRANCE</Tuple>
+      <Tuple number="32" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="33" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].ILE-DE-FRANCE</Tuple>
+      <Tuple number="33" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="34" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LANGUEDOC-ROUSSILLON</Tuple>
+      <Tuple number="34" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="35" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LANGUEDOC-ROUSSILLON</Tuple>
+      <Tuple number="35" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="36" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LANGUEDOC-ROUSSILLON</Tuple>
+      <Tuple number="36" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="37" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LIMOUSIN</Tuple>
+      <Tuple number="37" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="38" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LIMOUSIN</Tuple>
+      <Tuple number="38" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="39" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LORRAINE</Tuple>
+      <Tuple number="39" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="40" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LORRAINE</Tuple>
+      <Tuple number="40" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="41" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LORRAINE</Tuple>
+      <Tuple number="41" Dimension="conduite">[conduite].[conduite].CONDUITE NON RENSEIGNEE</Tuple>
+      <Tuple number="42" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].LORRAINE</Tuple>
+      <Tuple number="42" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="43" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].MIDI-PYRENEES</Tuple>
+      <Tuple number="43" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="44" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].MIDI-PYRENEES</Tuple>
+      <Tuple number="44" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="45" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].MIDI-PYRENEES</Tuple>
+      <Tuple number="45" Dimension="conduite">[conduite].[conduite].CONDUITE NON RENSEIGNEE</Tuple>
+      <Tuple number="46" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].MIDI-PYRENEES</Tuple>
+      <Tuple number="46" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="47" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].NORD-PAS-DE-CALAIS</Tuple>
+      <Tuple number="47" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="48" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].NORD-PAS-DE-CALAIS</Tuple>
+      <Tuple number="48" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="49" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].NORD-PAS-DE-CALAIS</Tuple>
+      <Tuple number="49" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="50" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PAYS-DE-LA-LOIRE</Tuple>
+      <Tuple number="50" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="51" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PAYS-DE-LA-LOIRE</Tuple>
+      <Tuple number="51" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="52" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PAYS-DE-LA-LOIRE</Tuple>
+      <Tuple number="52" Dimension="conduite">[conduite].[conduite].CONDUITE NON RENSEIGNEE</Tuple>
+      <Tuple number="53" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PAYS-DE-LA-LOIRE</Tuple>
+      <Tuple number="53" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="54" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PICARDIE</Tuple>
+      <Tuple number="54" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="55" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PICARDIE</Tuple>
+      <Tuple number="55" Dimension="conduite">[conduite].[conduite].CONDUITE NON RENSEIGNEE</Tuple>
+      <Tuple number="56" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PICARDIE</Tuple>
+      <Tuple number="56" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="57" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].POITOU-CHARENTES</Tuple>
+      <Tuple number="57" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="58" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].POITOU-CHARENTES</Tuple>
+      <Tuple number="58" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="59" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].POITOU-CHARENTES</Tuple>
+      <Tuple number="59" Dimension="conduite">[conduite].[conduite].CONDUITE NON RENSEIGNEE</Tuple>
+      <Tuple number="60" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].POITOU-CHARENTES</Tuple>
+      <Tuple number="60" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="61" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PROVENCE-ALPES-COTE-D-AZUR</Tuple>
+      <Tuple number="61" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="62" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PROVENCE-ALPES-COTE-D-AZUR</Tuple>
+      <Tuple number="62" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="63" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].PROVENCE-ALPES-COTE-D-AZUR</Tuple>
+      <Tuple number="63" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
+      <Tuple number="64" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].RHONE-ALPES</Tuple>
+      <Tuple number="64" Dimension="conduite">[conduite].[conduite].AUTRE</Tuple>
+      <Tuple number="65" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].RHONE-ALPES</Tuple>
+      <Tuple number="65" Dimension="conduite">[conduite].[conduite].BIOLOGIQUE</Tuple>
+      <Tuple number="66" Dimension="localisation.ancienne_region">[localisation.ancienne_region].[region].RHONE-ALPES</Tuple>
+      <Tuple number="66" Dimension="conduite">[conduite].[conduite].CONVENTIONNELLE</Tuple>
     </Axis>
     <Measure Ax0="1" Ax1="1">
-      <Value>2</Value>
+      <Value>|2,|style=red</Value>
     </Measure>
     <Measure Ax0="1" Ax1="2">
-      <Value>36</Value>
+      <Value>|5,|style=red</Value>
     </Measure>
     <Measure Ax0="1" Ax1="3">
-      <Value>436</Value>
+      <Value>|5,|style=red</Value>
     </Measure>
     <Measure Ax0="1" Ax1="4">
-      <Value>2</Value>
+      <Value>|5,|style=yellow</Value>
     </Measure>
     <Measure Ax0="1" Ax1="5">
-      <Value>246</Value>
+      <Value>|6,|style=green</Value>
     </Measure>
     <Measure Ax0="1" Ax1="6">
-      <Value>236</Value>
+      <Value>|7,|style=green</Value>
     </Measure>
     <Measure Ax0="1" Ax1="7">
-      <Value>35</Value>
+      <Value>|4,|style=red</Value>
     </Measure>
     <Measure Ax0="1" Ax1="8">
-      <Value>128</Value>
+      <Value>|6,|style=yellow</Value>
     </Measure>
     <Measure Ax0="1" Ax1="9">
-      <Value>220</Value>
+      <Value>|1,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="10">
+      <Value>|3,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="11">
+      <Value>|4,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="12">
+      <Value>|6,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="13">
+      <Value>|4,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="14">
+      <Value>|6,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="15">
+      <Value>|4,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="16">
+      <Value>|3,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="17">
+      <Value>|6,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="18">
+      <Value>|3,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="19">
+      <Value>|6,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="20">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="21">
+      <Value>|7,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="22">
+      <Value>|6,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="23">
+      <Value>|4,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="24">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="25">
+      <Value>|3,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="26">
+      <Value>|6,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="27">
+      <Value>|5,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="28">
+      <Value>|6,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="29">
+      <Value>|2,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="30">
+      <Value>|1,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="31">
+      <Value>|4,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="32">
+      <Value>|6,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="33">
+      <Value>|7,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="34">
+      <Value>|1,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="35">
+      <Value>|7,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="36">
+      <Value>|5,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="37">
+      <Value>|0,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="38">
+      <Value>|3,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="39">
+      <Value>|1,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="40">
+      <Value>|3,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="41">
+      <Value>|0,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="42">
+      <Value>|6,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="43">
+      <Value>|5,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="44">
+      <Value>|6,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="45">
+      <Value>|2,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="46">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="47">
+      <Value>|5,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="48">
+      <Value>|0,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="49">
+      <Value>|4,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="50">
+      <Value>|6,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="51">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="52">
+      <Value>|3,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="53">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="54">
+      <Value>|4,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="55">
+      <Value>|0,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="56">
+      <Value>|5,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="57">
+      <Value>|5,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="58">
+      <Value>|4,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="59">
+      <Value>|0,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="60">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="61">
+      <Value>|6,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="62">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="63">
+      <Value>|7,|style=green</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="64">
+      <Value>|5,|style=red</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="65">
+      <Value>|7,|style=yellow</Value>
+    </Measure>
+    <Measure Ax0="1" Ax1="66">
+      <Value>|6,|style=yellow</Value>
     </Measure>
   </Cube>
 </Cubes>

@@ -11,6 +11,7 @@
                         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
                         
         
         <property name="java-output-path" value="/SOLAOP_Tool/build/classes"/>

@@ -1,39 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Indicateurs attribute0="Measures" attribute1="species">
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>2</Value>
-    <Spatial>40x40:(12)</Spatial>
+<Indicateurs attribute0="Measures" attribute1="conduite">
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>2.</Value>
+    <Spatial>ALSACE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>36</Value>
-    <Spatial>40x40:(15)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>5.</Value>
+    <Spatial>AQUITAINE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>436</Value>
-    <Spatial>40x40:(20)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>1.</Value>
+    <Spatial>BASSE-NORMANDIE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>2</Value>
-    <Spatial>40x40:(23)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>6.</Value>
+    <Spatial>BOURGOGNE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>246</Value>
-    <Spatial>40x40:(31)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>4.</Value>
+    <Spatial>BRETAGNE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>236</Value>
-    <Spatial>40x40:(35)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>3.</Value>
+    <Spatial>CENTRE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>35</Value>
-    <Spatial>40x40:(39)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>7.</Value>
+    <Spatial>CHAMPAGNE-ARDENNE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>128</Value>
-    <Spatial>40x40:(4)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>3.</Value>
+    <Spatial>FRANCHE-COMTE</Spatial>
   </Indicateur>
-  <Indicateur name="ind_._nbr of atlas_._Guillemot de Troïl" attribute0="nbr of atlas" attribute1="Guillemot de Troïl">
-    <Value>220</Value>
-    <Spatial>40x40:(6)</Spatial>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>6.</Value>
+    <Spatial>HAUTE-NORMANDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>4.</Value>
+    <Spatial>ILE-DE-FRANCE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>1.</Value>
+    <Spatial>LANGUEDOC-ROUSSILLON</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>0.</Value>
+    <Spatial>LIMOUSIN</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>1.</Value>
+    <Spatial>LORRAINE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>5.</Value>
+    <Spatial>MIDI-PYRENEES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>5.</Value>
+    <Spatial>NORD-PAS-DE-CALAIS</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>6.</Value>
+    <Spatial>PAYS-DE-LA-LOIRE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>4.</Value>
+    <Spatial>PICARDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>5.</Value>
+    <Spatial>POITOU-CHARENTES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>6.</Value>
+    <Spatial>PROVENCE-ALPES-COTE-D-AZUR</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._AUTRE" attribute0="diversites" attribute1="AUTRE">
+    <Value>5.</Value>
+    <Spatial>RHONE-ALPES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>5.</Value>
+    <Spatial>ALSACE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>6.</Value>
+    <Spatial>AQUITAINE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>4.</Value>
+    <Spatial>AUVERGNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>3.</Value>
+    <Spatial>BASSE-NORMANDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>4.</Value>
+    <Spatial>BOURGOGNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>3.</Value>
+    <Spatial>BRETAGNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>6.</Value>
+    <Spatial>CENTRE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>6.</Value>
+    <Spatial>CHAMPAGNE-ARDENNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>6.</Value>
+    <Spatial>FRANCHE-COMTE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>2.</Value>
+    <Spatial>HAUTE-NORMANDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>6.</Value>
+    <Spatial>ILE-DE-FRANCE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>7.</Value>
+    <Spatial>LANGUEDOC-ROUSSILLON</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>3.</Value>
+    <Spatial>LORRAINE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>6.</Value>
+    <Spatial>MIDI-PYRENEES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>0.</Value>
+    <Spatial>NORD-PAS-DE-CALAIS</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>7.</Value>
+    <Spatial>PAYS-DE-LA-LOIRE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>4.</Value>
+    <Spatial>POITOU-CHARENTES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>7.</Value>
+    <Spatial>PROVENCE-ALPES-COTE-D-AZUR</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._BIOLOGIQUE" attribute0="diversites" attribute1="BIOLOGIQUE">
+    <Value>7.</Value>
+    <Spatial>RHONE-ALPES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONDUITE NON RENSEIGNEE" attribute0="diversites" attribute1="CONDUITE NON RENSEIGNEE">
+    <Value>4.</Value>
+    <Spatial>CHAMPAGNE-ARDENNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONDUITE NON RENSEIGNEE" attribute0="diversites" attribute1="CONDUITE NON RENSEIGNEE">
+    <Value>0.</Value>
+    <Spatial>LORRAINE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONDUITE NON RENSEIGNEE" attribute0="diversites" attribute1="CONDUITE NON RENSEIGNEE">
+    <Value>2.</Value>
+    <Spatial>MIDI-PYRENEES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONDUITE NON RENSEIGNEE" attribute0="diversites" attribute1="CONDUITE NON RENSEIGNEE">
+    <Value>3.</Value>
+    <Spatial>PAYS-DE-LA-LOIRE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONDUITE NON RENSEIGNEE" attribute0="diversites" attribute1="CONDUITE NON RENSEIGNEE">
+    <Value>0.</Value>
+    <Spatial>PICARDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONDUITE NON RENSEIGNEE" attribute0="diversites" attribute1="CONDUITE NON RENSEIGNEE">
+    <Value>0.</Value>
+    <Spatial>POITOU-CHARENTES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>5.</Value>
+    <Spatial>ALSACE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>AQUITAINE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>6.</Value>
+    <Spatial>AUVERGNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>4.</Value>
+    <Spatial>BASSE-NORMANDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>6.</Value>
+    <Spatial>BOURGOGNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>6.</Value>
+    <Spatial>BRETAGNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>CENTRE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>CHAMPAGNE-ARDENNE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>5.</Value>
+    <Spatial>FRANCHE-COMTE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>1.</Value>
+    <Spatial>HAUTE-NORMANDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>ILE-DE-FRANCE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>5.</Value>
+    <Spatial>LANGUEDOC-ROUSSILLON</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>3.</Value>
+    <Spatial>LIMOUSIN</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>6.</Value>
+    <Spatial>LORRAINE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>MIDI-PYRENEES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>4.</Value>
+    <Spatial>NORD-PAS-DE-CALAIS</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>PAYS-DE-LA-LOIRE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>5.</Value>
+    <Spatial>PICARDIE</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>POITOU-CHARENTES</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>7.</Value>
+    <Spatial>PROVENCE-ALPES-COTE-D-AZUR</Spatial>
+  </Indicateur>
+  <Indicateur name="ind_._diversites_._CONVENTIONNELLE" attribute0="diversites" attribute1="CONVENTIONNELLE">
+    <Value>6.</Value>
+    <Spatial>RHONE-ALPES</Spatial>
   </Indicateur>
 </Indicateurs>

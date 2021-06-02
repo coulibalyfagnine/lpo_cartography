@@ -125,6 +125,16 @@
             <NB_min>*</NB_min>
             <NB_max>*</NB_max>
           </Dimension>
+
+          <!-- dim ajoutée par Fagniné-->
+          <Dimension>
+            <name>nature_sol</name>
+            <NB_min>*</NB_min>
+            <NB_max>*</NB_max>
+          </Dimension>
+
+
+        <!-- END dim ajoutée par Fagniné-->
           
         <!-- DIMENSION CRIME -->
          <Dimension>
@@ -217,6 +227,196 @@
           <Map>Map_1</Map>
           <color>#109955</color>
         </Measure>
+		
+		
+		
+		 <Measure>
+          <name>AMOYENNE(SOMME(MAX(abondancesNonZERO)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+        </Measure>
+		
+		
+		
+    <!-- Mesures ajouter par Fagnine pour les cubes Dev-->
+		  <Measure>
+          <name>A_rapport:SOMME(abondances) SUR SOMME(nbParcellesAnneesVisitees)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_RegleAbaondanceEnFonctionDesValeursDeMedianes</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_MOYENNE(SOMME(MAX(abondances)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_MOYENNE(SOMME(MAX(abondances_non_nulles)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_MEDIANE(SOMME(MAX(abondances)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_QUARTILE1(SOMME(MAX(abondances)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_QUARTILE3(SOMME(MAX(abondances)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_MEDIANE(SOMME(MAX(abondances_non_nulles)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_QUARTILE1(SOMME(MAX(abondances_non_nulles)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_QUARTILE3(SOMME(MAX(abondances_non_nulles)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>O_(SOMME(nbPassage)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>O_SOMME(nbParcellesVisitee)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>O_SOMME(nbParcellesVisiteesAvecPresences)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>O_pourcentage:SOMME(nbParcellesVisitee)SUR(nbParcellesInscritesAuparavant)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>O_SOMME(nbParcellesAnneesVisitee)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>diversites</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>D_MOYENNE(SOMME(MAX(diversite_non_nulle)POUR:annee)POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>D_QUARTILE3(diversite):diversite_non_nulle</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>D_QUARTILE1(diversites):diversite_non_nulle</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+       <Measure>
+          <name>D_MEDIANE(diversites):diversite_non_nulle</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+     
+
+      
+
+      <Measure>
+          <name>D_MEDIANE(diversites):diversite:POUR:annee)POUR:parcelle</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+
+     
+
+      <Measure>
+          <name>Reference_nationale</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>Reference_nationale_numerique</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+
+
+      <!-- Mesures ajouter par Fagnine pour les cubes parcelleAnnée Dev uniquement-->
+      <Measure>
+          <name>PresenceEspece</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>A_SOMME(MAX(abondances)POUR:annee POUR:parcelle)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>O_pourcentage:SOMME(nbParcellesVisitee)SUR(nbParcellesInscritesBD)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+      <Measure>
+          <name>O_pourcentage:SOMME(nbCommune)SUR(nbCommunesBD)</name>
+          <Map>Map_1</Map>
+          <color>#109955</color>
+      </Measure>
+
+       <!-- END Mesures ajouter par Fagnine pour les cubes parcelleAnnée Dev uniquement-->
+
+       
+		<!-- Mesures ajouter par Fagnine pour les cubes Dev-->
+		
+		
+		
         <Measure>
           <name>MIN(SOMME(MAX(abondance)POUR:annee)POUR:parcelle)</name>
           <Map>Map_1</Map>
@@ -490,6 +690,7 @@
             <NB_min>*</NB_min>
             <NB_max>*</NB_max>
           </Dimension>
+
           <Dimension>
             <name>conduite</name>
             <NB_min>*</NB_min>
@@ -565,6 +766,17 @@
             <NB_min>*</NB_min>
             <NB_max>*</NB_max>
           </Dimension>
+
+        <!-- dim ajoutée par Fagniné-->
+        <Dimension>
+            <name>nature_sol</name>
+            <NB_min>*</NB_min>
+            <NB_max>*</NB_max>
+          </Dimension>
+
+
+        <!-- END dim ajoutée par Fagniné-->
+
         </Dimensions>
         
       </Conditions>
@@ -861,6 +1073,47 @@
       <bar_max_high>1</bar_max_high>
       <color>#109955</color>
     </Measure>
+	
+	
+	<Measure>
+      <name>AMOYENNE(SOMME(MAX(abondancesNonZERO)POUR:annee)POUR:parcelle)</name>
+      <display>Bars</display>
+      <bar_width>0.9</bar_width>
+      <bar_min_high>0.1</bar_min_high>
+      <bar_max_high>5</bar_max_high>
+      <color>#109955</color>
+    </Measure>
+	
+	
+	
+	
+	<!-- Mesures par Fagnine pour les cubes Dev-->
+	  <Measure>
+      <name>A_rapport:SOMME(abondances) SUR SOMME(nbParcellesAnneesVisitees)</name>
+      <display>Bars</display>
+      <bar_width>0.9</bar_width>
+      <bar_min_high>0.1</bar_min_high>
+      <bar_max_high>5</bar_max_high>
+      <color>#109955</color>
+    </Measure>
+
+
+
+    <Measure>
+      <name>D_MEDIANE(diversites):diversite:POUR:annee)POUR:parcelle</name>
+      <display>Bars</display>
+      <bar_width>0.9</bar_width>
+      <bar_min_high>0.1</bar_min_high>
+      <bar_max_high>5</bar_max_high>
+      <color>#109955</color>
+    </Measure>
+
+    
+	
+	<!-- Mesures par Fagnine pour les cubes Dev-->
+	
+	
+	
   </MAP_Active>
   <Background>
     <color>#</color>

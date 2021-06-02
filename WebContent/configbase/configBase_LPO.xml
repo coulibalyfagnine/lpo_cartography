@@ -11,7 +11,7 @@
   
   <Pass>0000</Pass>
   
-     <Base>lpoFINAL</Base> 
+     <Base>cubeLPO</Base> 
    <Table>lpo_geo</Table> 
   
 <!--   <Base>geosystems_crime</Base> -->

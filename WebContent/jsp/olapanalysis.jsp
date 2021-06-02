@@ -21,8 +21,8 @@
 	<form action="/LPO_geoCartography/Accueil" method="post" id="desc2">
 		<label for="Cube">Choisir un Cube:</label> <select id="Cube"
 			name="Cube">
-			<option disabled="disabled">Select an Option</option>
-			<option selected="true" value="OAB">OAB</option>
+			<option selected="true" disabled="disabled">Select an Option</option>
+			<option value="OAB">OAB</option>
 			<option value="LPO">LPO</option>
 
 		</select> <input type="submit" name="submit" value="Saiku" />

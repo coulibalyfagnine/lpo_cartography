@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
+        <Statement>           <![CDATA[SELECTNON EMPTY {Hierarchize({[Measures].[diversites]})} ON COLUMNS,NON EMPTY CrossJoin([localisation.ancienne_region].[region].Members, [conduite].[conduite].Members) ON ROWSFROM [OAB_POLLINISATEURS_Ab_Div_Obs-(Parcelle)(Annee)(Toutes especes)]]]>         </Statement>

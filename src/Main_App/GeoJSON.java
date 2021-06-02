@@ -4050,7 +4050,13 @@ public class GeoJSON {
 		if (export.equals("local") || export.equals("VM_local")) {
 			TEXT.savefile(s_templatejson_File, templateJsonData.toString().replace("},", "},\n"));
 		}
-
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println(templatepath);
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println(templateJsonData.toString().replace("},", "},\n"));
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
 		if (export.equals("VM")) {
 			TEXT.savefile(templatepath,
 					templateJsonData.toString().replace("},", "},\n"));
@@ -4702,6 +4708,13 @@ public class GeoJSON {
 			TEXT.savefile(s_templatejson_File, templateJsonData.toString().replace("},", "},\n"));
 		}
 
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println(templatepath);
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
+		System.out.println(templateJsonData.toString().replace("},", "},\n"));
+		System.out.println("eeeeeeeeeeeeeeeeeeeXXXXXXXXXXXXXXXXXeeeeeeeeeeeeeeeeeeee");
 		if (export.equals("VM")) {
 			TEXT.savefile(templatepath,
 					templateJsonData.toString().replace("},", "},\n"));
