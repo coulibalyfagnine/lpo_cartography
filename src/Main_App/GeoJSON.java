@@ -65,7 +65,7 @@ public class GeoJSON {
 
 	static List<String> dimension_value = new ArrayList<String>();
 	
-	static String protocole = "http";
+	static String protocole = "https";
 //	PENSER A CHANGER AVEC CODE DANS GeoJSON_avar.java
 
 	public static void execute(HttpServletRequest request, List<String> liste_dimensions, List<Indicateur> liste_ind,
