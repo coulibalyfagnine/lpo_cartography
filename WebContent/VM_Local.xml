@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config_server>
 
-	<export>VM</export>
-	<protocole>http</protocole>
-	<hote>127.0.0.1</hote>
-	
-	<disc>P:</disc>
-	<port>8080</port>
-	<!-- repertory for generated geosjon files -->
-	<geojsonpath>P:\Data Published</geojsonpath>
+  <export>VM</export>
+<!--   <export>local</export>
+  <export>VM_local</export> -->
+  <protocole>https</protocole>
+  <hote>vgi4bio.geosystems.fr</hote>
+<!--     <disc>C:</disc>
+ -->  <disc>D:</disc>
+   <port>8443</port>
+<!--  repertory for generated geosjon files 
+ -->
+ <geojsonpath>D:\Data Published</geojsonpath>
+ 
+  <!--  repertory for generated template files 
+ -->
+ <templatepath>C:\inetpub\wwwroot\FeatureAnalyzer\views\template.json</templatepath>
 
-	<!-- repertory for generated template files -->
-	<templatepath>C:\inetpub\wwwroot\FeatureAnalyzer\views\template.json</templatepath>
-
-
+  
 </config_server>
