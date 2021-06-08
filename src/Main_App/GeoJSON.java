@@ -65,12 +65,12 @@ public class GeoJSON {
 
 	static List<String> dimension_value = new ArrayList<String>();
 	
-	static String protocole = "https";
+
 //	PENSER A CHANGER AVEC CODE DANS GeoJSON_avar.java
 
 	public static void execute(HttpServletRequest request, List<String> liste_dimensions, List<Indicateur> liste_ind,
 			List<Measure_Display> liste_mesure_display, String geoJSON_file, String boundary_file,
-			String s_templatejson_File, String export, String hote, String disc,String geojsonpath,String templatepath, int date, String Rule_name)
+			String s_templatejson_File, String export, String hote, String disc,String geojsonpath,String templatepath, int date, String Rule_name, String protocole)
 			throws IOException, ParseException, SQLException {
 		Double sh = new Double(0.0);
 		shh = 0.0;
@@ -334,7 +334,7 @@ public class GeoJSON {
 					// ECRITURE TEMPLATE MULTIBAR - MULTIMESURE
 					ecrireDonneesTemplatesBarMultiNMeasure(Indicators.dim_mem_done, s_templatejson_File,
 							geoJSON_file + "_Polygon_", geoJSON_file + "_Bar_", boundary_file, export, hote, disc,geojsonpath,templatepath, dt,
-							date, liste_fichier_mesure, measure, Rule_name, niv_mes, liste_niveau, liste_legende);
+							date, liste_fichier_mesure, measure, Rule_name, niv_mes, liste_niveau, liste_legende, protocole);
 
 					System.out.println(" FIN ECRITURE FICHIER template multi nmesure ");
 
@@ -350,7 +350,7 @@ public class GeoJSON {
 					ecrireDonneesTemplates2MultiBar(Indicators.dim_mem_done, s_templatejson_File, liste_niveau,
 							geoJSON_file + "_" + nom_fichier_polygon[0], geoJSON_file + "_" + nom_fichier_polygon[1],
 							geoJSON_file + "_" + nom_fichier_bar[0], geoJSON_file + "_" + nom_fichier_bar[1],
-							boundary_file, export, hote, disc,geojsonpath,templatepath, dt, date, liste_legende);
+							boundary_file, export, hote, disc,geojsonpath,templatepath, dt, date, liste_legende, protocole);
 
 				}
 
@@ -361,14 +361,14 @@ public class GeoJSON {
 					ecrireDonneesTemplatesBarNMeasure(Indicators.dim_mem_done, s_templatejson_File,
 							geoJSON_file + "_Polygon_" + liste_niveau.get(0),
 							geoJSON_file + "_Bar_" + liste_niveau.get(0), boundary_file, export, hote, disc,geojsonpath,templatepath, dt, date,
-							liste_fichier_mesure, measure, Rule_name, liste_legende);
+							liste_fichier_mesure, measure, Rule_name, liste_legende, protocole);
 
 				} else {
 					// ECRITURE TEMPLATE AVEC LES BAR
 					ecrireDonneesTemplatesBar(Indicators.dim_mem_done, s_templatejson_File,
 							geoJSON_file + "_Polygon_" + liste_niveau.get(0),
 							geoJSON_file + "_Bar_" + liste_niveau.get(0), boundary_file, export, hote, disc,geojsonpath,templatepath, dt, date,
-							Rule_name, liste_niveau.get(0), liste_legende);
+							Rule_name, liste_niveau.get(0), liste_legende, protocole);
 
 				}
 
@@ -384,7 +384,7 @@ public class GeoJSON {
 			GeoJsonLayers(disc, geojsonpath, templatepath, liste_ind);
 			System.out.println("ecrire Donnees GeoJSON done");
 			ecrireDonneesTemplates(Indicators.dim_mem_done, s_templatejson_File, disc + "/" + geoJSON_file + "Data",
-					disc + "/" + geoJSON_file + "EmptyData", boundary_file, export, hote, disc,geojsonpath,templatepath, dt, date, Rule_name);
+					disc + "/" + geoJSON_file + "EmptyData", boundary_file, export, hote, disc,geojsonpath,templatepath, dt, date, Rule_name, protocole);
 			System.out.println("ecrire Donnees Templates done");
 
 		}
@@ -3130,7 +3130,7 @@ public class GeoJSON {
 	@SuppressWarnings("unchecked")
 	private static void ecrireDonneesTemplates(Map<String, List<String>> dim_mem_done, String s_templatejson_File,
 			String geoJSON_Data, String geoJSON_Empty, String boundary_file, String export, String hote, String disc,String geojsonpath,String templatepath,
-			String dt, int date, String rules) throws IOException {
+			String dt, int date, String rules, String protocole) throws IOException {
 		// d'abord on prÃ©pare la strucutre de fichier JSON
 		JSONObject templateJsonData = new JSONObject();
 		templateJsonData.put("version", 2);
@@ -3628,7 +3628,7 @@ public class GeoJSON {
 	@SuppressWarnings("unchecked")
 	private static void ecrireDonneesTemplatesBar(Map<String, List<String>> dim_mem_done, String s_templatejson_File,
 			String geoJSONPolygon_file, String geoJSONBar_file, String boundary_file, String export, String hote,
-			String disc,String geojsonpath,String templatepath, String dt, int date, String rules, String niveau, Map<String, String> liste_legende)
+			String disc,String geojsonpath,String templatepath, String dt, int date, String rules, String niveau, Map<String, String> liste_legende, String protocole)
 			throws IOException {
 
 		String html = write_html.getHtml(dimension_value);
@@ -4056,7 +4056,7 @@ public class GeoJSON {
 	private static void ecrireDonneesTemplatesBarNMeasure(Map<String, List<String>> dim_mem_done,
 			String s_templatejson_File, String geoJSONPolygon_file, String geoJSONBar_file, String boundary_file,
 			String export, String hote, String disc,String geojsonpath,String templatepath, String dt, int date, Map<String, String> liste_fichier_mesure,
-			ArrayList<String> measure, String rules, Map<String, String> liste_legende) throws IOException {
+			ArrayList<String> measure, String rules, Map<String, String> liste_legende, String protocole) throws IOException {
 
 		System.out.println(" DEBUT ECRITURE TEMPLATE N MEASURE ");
 //	for (String mes : measure) {
@@ -4696,7 +4696,7 @@ public class GeoJSON {
 			String s_templatejson_File, String geoJSONPolygon_file, String geoJSONBar_file, String boundary_file,
 			String export, String hote, String disc,String geojsonpath,String templatepath, String dt, int date, Map<String, String> liste_fichier_mesure,
 			ArrayList<String> measure, String rules, String[][] niv_mes, ArrayList<String> liste_niveau,
-			Map<String, String> liste_legende) throws IOException {
+			Map<String, String> liste_legende, String protocole) throws IOException {
 
 		System.out.println(" DEBUT ECRITURE TEMPLATE N MEASURE MULTI LAYER ");
 
@@ -5526,7 +5526,7 @@ public class GeoJSON {
 	private static void ecrireDonneesTemplates2MultiBar(Map<String, List<String>> dim_mem_done,
 			String s_templatejson_File, ArrayList<String> liste_niveau, String geoJSONPolygon_departement,
 			String geoJSONPolygon_region, String geoJSONBar_departement, String geoJSONBar_region, String boundary_file,
-			String export, String hote, String disc,String geojsonpath,String templatepath, String dt, int date, Map<String, String> liste_legende)
+			String export, String hote, String disc,String geojsonpath,String templatepath, String dt, int date, Map<String, String> liste_legende, String protocole)
 			throws IOException {
 
 //	for(String val : dimension_value) {

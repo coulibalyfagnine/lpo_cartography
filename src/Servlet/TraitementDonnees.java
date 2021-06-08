@@ -77,7 +77,7 @@ public class TraitementDonnees extends HttpServlet {
 //    int data = 1; // PLUSIEURS FICHIERS
 
 		// MainApp.main(null);
-		String typeCarte = MainApp.main(request, export,hote,disc,geojsonpath,templatepath, date);
+		String typeCarte = MainApp.main(request, export,hote,disc,geojsonpath,templatepath, date, protocole);
 
 		try {
 
