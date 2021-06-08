@@ -49,7 +49,7 @@ public class MainApp {
  * @throws ParseException 
  * @throws SQLException 
    */
-  public static String main(HttpServletRequest request, String export, String hote, String disc,String geojsonpath,String templatepath, int date) throws IOException, ParseException, SQLException {
+  public static String main(HttpServletRequest request, String export, String hote, String disc,String geojsonpath,String templatepath, int date, String protocole) throws IOException, ParseException, SQLException {
     try { 	
     	
     	HttpSession session = request.getSession();
@@ -172,7 +172,7 @@ public class MainApp {
     	  templatejsonFile = root.getChild("templatejson");
     	  s_templatejson_File = sc.getRealPath(templatejsonFile.getText());
 //
-    	  GeoJSON.execute(request, liste_dimensions, liste_ind, liste_mesure_display, s_geoJSON_file, s_boundary_file, s_templatejson_File, export,hote,disc,geojsonpath,templatepath, date, Rule_name);
+    	  GeoJSON.execute(request, liste_dimensions, liste_ind, liste_mesure_display, s_geoJSON_file, s_boundary_file, s_templatejson_File, export,hote,disc,geojsonpath,templatepath, date, Rule_name, protocole);
 
 //    	  GeoJSON.execute(request, liste_dimensions, liste_ind, liste_mesure_display, s_geoJSON_file, s_boundary_file, s_templatejson_File, export, date);
     	  return("geoJSON");
