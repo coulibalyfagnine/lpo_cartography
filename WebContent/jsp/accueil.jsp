@@ -30,11 +30,11 @@
 		<nav>
 			<ul>
 				<li><a href="javascript:void(0)"
-					onclick="nav('nav1'); return false;">ANR VGI4Bio Project</a></li>
+					onclick="nav('nav1'); return false;">Projet ANR VGI4Bio</a></li>
 				<li><a href="javascript:void(0)"
-					onclick="nav('nav2'); return false;">OAB</a></li>
+					onclick="nav('nav2'); return false;">Description données OAB</a></li>
 				<li><a href="javascript:void(0)"
-					onclick="nav('nav3'); return false;">LPO</a></li>
+					onclick="nav('nav3'); return false;">Description données LPO</a></li>
 			</ul>
 		</nav>
 
@@ -48,7 +48,7 @@
 	</section>
 
 	<footer>
-		<p>Footer</p>
+		<p></p>
 	</footer>
 
 	  
