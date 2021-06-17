@@ -19,7 +19,7 @@
 	</section>
 
 	<footer>
-		<p>Footer</p>
+		<p></p>
 	</footer>
 </body>
 </html>
