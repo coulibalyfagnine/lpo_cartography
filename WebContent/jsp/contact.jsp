@@ -1,6 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -9,26 +6,27 @@
 <script src="/LPO_geoCartography/javascript/w3.js"></script>
 <link rel="stylesheet" type="text/css"
 	href="/LPO_geoCartography/css/style.css">
-
 </head>
 <body>
+
 	<div w3-include-HTML='/LPO_geoCartography/html/nav.html'></div>
 	<script type="text/javascript">
 		w3.includeHTML();
 	</script>
 	<section>
 
-	<form action="/LPO_geoCartography/Accueil" method="post" id="desc2">
-		<label for="Cube">Choisir un Cube:</label> <select id="Cube"
-			name="Cube">
-			<option selected="true" value="OAB">OAB</option>
-			<option value="LPO">LPO</option>
+		<p>
+			Pour toutes informations complémentaires veuillez contacter Sandro Bimonte, 
+			Directeur de Recherche à INRAE Clermont Ferrand:
+		
+			<br>
+			<br>
+			<strong> sandro.bimonte@inrae.fr</strong>
+		</p>
+		
+		
+	</section>
 
-		</select> <input type="submit" name="submit" value="Analyser" />
-	</form>
-		</section>
-	
-	
 	<footer>
 		<p></p>
 	</footer>
