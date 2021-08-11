@@ -10,6 +10,6 @@
 	<geojsonpath>D:\Data Published</geojsonpath>
 
 	<templatepath>C:\inetpub\wwwroot\FeatureAnalyzer\views\template.json</templatepath>
-
+	<featureAnalyzerURL>https://vgi4bio.geosystems.fr/FeatureAnalyzer/?view=template</featureAnalyzerURL>
 
 </config_server>

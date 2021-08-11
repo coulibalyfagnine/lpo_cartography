@@ -64,7 +64,9 @@ public class TraitementDonnees extends HttpServlet {
 		String disc =document.getDocumentElement().getElementsByTagName("disc").item(0).getTextContent();
 		String geojsonpath =document.getDocumentElement().getElementsByTagName("geojsonpath").item(0).getTextContent();
 		String templatepath =document.getDocumentElement().getElementsByTagName("templatepath").item(0).getTextContent();
-
+		String featureAnalyzerURL =document.getDocumentElement().getElementsByTagName("featureAnalyzerURL").item(0).getTextContent();
+		
+		
 		/* CHOIX D'EXPORTATION POUR LA VM OU EN LOCAL */
 		// String export = "VM";
 		// String export = "local";
@@ -96,8 +98,7 @@ public class TraitementDonnees extends HttpServlet {
 			out.println("</script>");
 
 			out.println("</head>");
-			// out.println("<body
-			// onload=\"OpenInNewTab("+"'map/sld.html?N="+CreateGML.map_number+"');\" >");
+			
 			if (typeCarte.toUpperCase().contains(("GML_SLD").toUpperCase())) {
 				out.println(
 						"<body onload=\"window.open(" + "'map/sld.html?N=" + GML_SLD.map_number + "', '_self');\" >");
@@ -105,7 +106,10 @@ public class TraitementDonnees extends HttpServlet {
 
 				if (export.equals("VM")) {
 					out.println(
-							"<body onload=\"window.open(' "+ protocole +"://"+ hote +"/FeatureAnalyzer/?view=template', '_self');\" >");
+							//"<body onload=\"window.open(' "+ protocole +"://"+ hote +"/FeatureAnalyzer/?view=template', '_self');\" >"
+							
+							" <body onload=\"window.open(' "+ featureAnalyzerURL +"  ', '_self ');  \" >"
+							);
 				}
 
 				if (export.equals("local")) {
