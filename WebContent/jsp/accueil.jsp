@@ -13,6 +13,9 @@
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
+
+
 <body>
 <div w3-include-HTML='/LPO_geoCartography/html/nav.html'></div>
 			<script type="text/javascript">
@@ -44,6 +47,10 @@
 				w3.includeHTML();
 			</script>
 		</article>
+		
+	
+		
+
 
 	</section>
 
