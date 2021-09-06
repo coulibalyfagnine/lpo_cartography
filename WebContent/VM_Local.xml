@@ -2,14 +2,22 @@
 <config_server>
 
 	<export>VM</export>
-	<protocole>https</protocole>
-	<hote>vgi4bio.geosystems.fr</hote>
+	<!-- <protocole>https</protocole> -->
+	<protocole>http</protocole>
+	<!--<hote>vgi4bio.geosystems.fr</hote> -->
+	<hote>localhost</hote>
 
-	<disc>D:</disc>
-	<port>8443</port>
-	<geojsonpath>D:\Data Published</geojsonpath>
+	<!-- <disc>D:</disc> -->
+	<disc>P:</disc>
+	<!--<port>8443</port> -->
+	<port>8080</port>
+	<!-- <geojsonpath>D:\Data Published</geojsonpath> -->
+	<geojsonpath>P:\Data Published</geojsonpath>
 
 	<templatepath>C:\inetpub\wwwroot\FeatureAnalyzer\views\template.json</templatepath>
-	<featureAnalyzerURL>https://vgi4bio.geosystems.fr/FeatureAnalyzer/?view=template</featureAnalyzerURL>
-
+	<!-- etant donné que le caractere "&" n'est pas supporté par le parser xml on le raplace le contenu de la balise "caractereAjoutParamURL" -->
+<!-- 	<featureAnalyzerURL>https://vgi4bio.geosystems.fr/FeatureAnalyzer/?view=template-tenant=map4solap-publicUser=map4solap:map4solap</featureAnalyzerURL> -->
+	<featureAnalyzerURL>https://vgi4bio.geosystems.fr/FeatureAnalyzer/?view=basic-tenant=map4solap-publicUser=map4solap:map4solap</featureAnalyzerURL>
+	
+	<caractereAjoutParamURL>-</caractereAjoutParamURL>
 </config_server>

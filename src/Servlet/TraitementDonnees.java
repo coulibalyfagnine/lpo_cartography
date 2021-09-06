@@ -4,6 +4,7 @@
  */
 package Servlet;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
@@ -27,12 +28,18 @@ import org.xml.sax.SAXException;
 import Main_App.GML_SLD;
 import Main_App.MainApp;
 
+import useful_Document.JSON;
+import useful_Document.IOService.BufferedFactoryImpl;
+import useful_Document.IOService.IOServiceWithBuffered;
+
 /**
  *
  * @author Clément
  */
 public class TraitementDonnees extends HttpServlet {
 
+	
+	IOServiceWithBuffered iOServiceWithBuffered = new IOServiceWithBuffered(new BufferedFactoryImpl());
 	/**
 	 * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
 	 * methods.
@@ -65,7 +72,14 @@ public class TraitementDonnees extends HttpServlet {
 		String geojsonpath =document.getDocumentElement().getElementsByTagName("geojsonpath").item(0).getTextContent();
 		String templatepath =document.getDocumentElement().getElementsByTagName("templatepath").item(0).getTextContent();
 		String featureAnalyzerURL =document.getDocumentElement().getElementsByTagName("featureAnalyzerURL").item(0).getTextContent();
+		String caractereAjoutParamURL =document.getDocumentElement().getElementsByTagName("caractereAjoutParamURL").item(0).getTextContent();
 		
+		featureAnalyzerURL =featureAnalyzerURL.replace(caractereAjoutParamURL, "&");
+		
+		System.out.println("******************** TTTTTTTTT03/09/2021TTTTTTTTt **************************");
+		String templateAsJSON = iOServiceWithBuffered.read(templatepath);
+		System.out.println(templateAsJSON);
+		System.out.println("******************** TTTTTTTTT03/09/2021TTTTTTTTt **************************");
 		
 		/* CHOIX D'EXPORTATION POUR LA VM OU EN LOCAL */
 		// String export = "VM";
@@ -91,7 +105,6 @@ public class TraitementDonnees extends HttpServlet {
 			out.println("<title>Servlet data processing</title>");
 			out.println("<script language=\"JavaScript\" >");
 			out.println("function OpenInNewTab(url) {");
-			// out.println("var win = window.open(url, '_blank');");
 			out.println("var win = window.open(url, '_self');");
 			out.println("win.focus();");
 			out.println("}");
@@ -106,10 +119,14 @@ public class TraitementDonnees extends HttpServlet {
 
 				if (export.equals("VM")) {
 					out.println(
-							//"<body onload=\"window.open(' "+ protocole +"://"+ hote +"/FeatureAnalyzer/?view=template', '_self');\" >"
 							
-							" <body onload=\"window.open(' "+ featureAnalyzerURL +"  ', '_self ');  \" >"
+							" <body onload=\"window.location.replace(' "+ featureAnalyzerURL +" ');  \" >"
 							);
+					out.println("<script language=\"JavaScript\" >");
+					out.println("setTimeout(() => {");
+					out.println("	analyzer.Analyzer.initialize(" +templateAsJSON + ");");
+					out.println("}, 5000);");
+					out.println("</script>");
 				}
 
 				if (export.equals("local")) {

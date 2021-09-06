@@ -199,23 +199,12 @@ public class MainApp {
       }
       
 
-//      */
-      
-      //flusher(f_olapLogFile); 
-      
-      //ouvrir la page de la carte (des cartes)
-//      Element connexion = root.getChild("connexion");  
-      
-      //java.awt.Desktop.getDesktop().browse(java.net.URI.create("http://localhost:8080/SOLAOP_Tool/map/sld.html?N="+CreateGML.map_number));
-      //java.awt.Desktop.getDesktop().browse(java.net.URI.create(connexion.getChildText("tomcat_host")+":"+connexion.getChildText("tomcat_port")+"/"+connexion.getChildText("cartography")+"/map/sld.html?N="+CreateGML.map_number));
 
-      //connexion.getChildText("tomcat_host")+":"+connexion.getChildText("tomcat_port")+"/"+connexion.getChildText("project")+ connexion.getChildText("client_olap"));
+      
     } catch (NoSuchAlgorithmException ex) {
       Logger.getLogger(MainApp.class.getName()).log(Level.SEVERE, null, ex);
-    } /*catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}*/
+    } 
+    
 	return("None");
   }
   
