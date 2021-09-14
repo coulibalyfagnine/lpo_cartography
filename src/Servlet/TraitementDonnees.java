@@ -76,10 +76,7 @@ public class TraitementDonnees extends HttpServlet {
 		
 		featureAnalyzerURL =featureAnalyzerURL.replace(caractereAjoutParamURL, "&");
 		
-		System.out.println("******************** TTTTTTTTT03/09/2021TTTTTTTTt **************************");
-		String templateAsJSON = iOServiceWithBuffered.read(templatepath);
-		System.out.println(templateAsJSON);
-		System.out.println("******************** TTTTTTTTT03/09/2021TTTTTTTTt **************************");
+		String hostURL = protocole +"://" +hote;
 		
 		/* CHOIX D'EXPORTATION POUR LA VM OU EN LOCAL */
 		// String export = "VM";
@@ -94,7 +91,14 @@ public class TraitementDonnees extends HttpServlet {
 
 		// MainApp.main(null);
 		String typeCarte = MainApp.main(request, export,hote,disc,geojsonpath,templatepath, date, protocole);
-
+		
+		System.out.println("******************** TTTTTTTTT14/09/2021TTTTTTTTt **************************");
+		String templateAsJSON = iOServiceWithBuffered.read(templatepath);
+		System.out.println(hostURL);
+		System.out.println(templateAsJSON);
+		
+		System.out.println("******************** TTTTTTTTT14/09/2021TTTTTTTTt **************************");
+		
 		try {
 
 //    	Circles crl = new Circles();
@@ -111,33 +115,20 @@ public class TraitementDonnees extends HttpServlet {
 			out.println("</script>");
 
 			out.println("</head>");
+									
+			out.println("<body>");
+				out.println("<script language=\"JavaScript\" >");
+				out.println("var popup;");
+				out.println("window.addEventListener('message', (event) => {");
+					out.println("if (event.data === 'readyAnalyzer') {");
+						out.println("popup.postMessage({ type: 'solapdata', content:"+ templateAsJSON +"}, '" +hostURL +"')");
+					out.println("}");
+				out.println("});");
+				out.println("popup = window.open('" + featureAnalyzerURL +"');");
+				out.println("</script>");
 			
-			if (typeCarte.toUpperCase().contains(("GML_SLD").toUpperCase())) {
-				out.println(
-						"<body onload=\"window.open(" + "'map/sld.html?N=" + GML_SLD.map_number + "', '_self');\" >");
-			} else if (typeCarte.toUpperCase().contains(("geoJSON").toUpperCase())) {
 
-				if (export.equals("VM")) {
-					out.println(
-							
-							" <body onload=\"window.location.replace(' "+ featureAnalyzerURL +" ');  \" >"
-							);
-					out.println("<script language=\"JavaScript\" >");
-					out.println("setTimeout(() => {");
-					out.println("	analyzer.Analyzer.initialize(" +templateAsJSON + ");");
-					out.println("}, 5000);");
-					out.println("</script>");
-				}
-
-				if (export.equals("local")) {
-					out.println(
-							"<body onload=\"window.open('https://mapps.geosystems.fr/FeatureAnalyzer/?view=Ali_TESTE&tenant=Edoh#', '_self');\" >");
-				}
-
-			} else if (typeCarte.toUpperCase().contains(("None").toUpperCase())) {
-				out.println(
-						"<body onload=\"window.open(" + "'map/sld.html?N=" + GML_SLD.map_number + "', '_self');\" >");
-			}
+			
 			
 			out.println("</body>");
 			out.println("</html>");
